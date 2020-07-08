@@ -28,12 +28,16 @@
           </div>
           <div class="col-12 col-md-6">
             <div class="row">
-              <div class="search col-8 col-md-5">
+              <div class="search col-10 col-md-5">
                 <input type="text" placeholder="Tìm kiếm..." />
               </div>
-              <div class="lang col-4 col-md-7">
+              <div class="lang lang--desktop col-4 col-md-7">
                 <div class="lang__item">Tiếng Việt</div>
                 <div class="lang__item lang__item--blue">English</div>
+              </div>
+              <div class="lang lang--mobile col-2 col-md-7">
+                <div class="lang__item"><img src="assets/vietnamese.png" alt=""></div>
+                <div class="lang__item"><img src="assets/english.png" alt=""></div>
               </div>
             </div>
           </div>
@@ -44,7 +48,7 @@
         <div class="nav__img">
           <img src="assets/banner.PNG" alt="" />
         </div>
-        <ul class="nav__menu">
+        <ul class="nav__menu nav__menu--desktop">
           <li class="nav__menu__item">Trang chủ</li>
           <li class="nav__menu__item">Giới thiệu</li>
           <li class="nav__menu__item">Tin tức</li>
@@ -56,6 +60,23 @@
           <li class="nav__menu__item">Liên hệ</li>
           <li class="nav__menu__item">Văn hóa việt</li>
         </ul>
+        <div class="nav__menu nav__menu--mobile">
+          <div class="nav__menu__burger">
+            <img src="assets/burger.png" alt="">
+          </div>
+          <ul class="nav__menu__mobile">
+            <li class="nav__menu__item">Trang chủ</li>
+            <li class="nav__menu__item">Giới thiệu</li>
+            <li class="nav__menu__item">Tin tức</li>
+            <li class="nav__menu__item">Hoạt động của đồng bào</li>
+            <li class="nav__menu__item">Xúc tiến đầu tư</li>
+            <li class="nav__menu__item">Thông tin du lịch</li>
+            <li class="nav__menu__item">Video</li>
+            <li class="nav__menu__item">Hình ảnh</li>
+            <li class="nav__menu__item">Liên hệ</li>
+            <li class="nav__menu__item">Văn hóa việt</li>
+          </ul>   
+        </div>
       </nav>
       <div class="container">
         <div class="row">
@@ -482,7 +503,7 @@
           </ul>
         </div>
         <div class="content row">
-          <div class="col-3">
+          <div class="col-6 col-md-3">
             <div class="heading">
               Giới thiệu
             </div>
@@ -493,7 +514,7 @@
               <div class="item">Ẩm thực tại Làng</div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-6 col-md-3">
             <div class="heading">
               Đường đến Làng Văn hóa
             </div>
@@ -503,7 +524,7 @@
               <div class="item">Các khu du lịch lân cận</div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-6 col-md-3">
             <div class="heading">
               Kế hoạch hoạt động tại Làng
             </div>
@@ -526,7 +547,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-6 col-md-3">
             <div class="heading">
               Video
             </div>
@@ -557,6 +578,10 @@
           autoplaySpeed: 3000,
         });
       });
+      $('.nav__menu__burger').click(function(){
+          $('.nav__menu__mobile').toggle();
+        });
+      
     </script>
   </body>
 </html>
