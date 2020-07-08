@@ -305,8 +305,7 @@ table {
 
 .wrapper nav .nav__menu--mobile .nav__menu__mobile .nav__menu__item {
   height: 2rem;
-  padding-top: 1rem;
-  padding-right: 1rem;
+  padding: 1rem;
 }
 
 .wrapper section .slider .slide__item img {
@@ -348,12 +347,6 @@ table {
   margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 768px) {
-  .wrapper section .category__item {
-    height: 40rem;
-  }
-}
-
 .wrapper section .category__item__heading {
   text-transform: uppercase;
   font-weight: bold;
@@ -365,12 +358,6 @@ table {
 
 .wrapper section .category__item__content .content__item {
   height: 6rem;
-}
-
-@media screen and (max-width: 768px) {
-  .wrapper section .category__item__content .content__item {
-    height: 12rem;
-  }
 }
 
 .wrapper section .category__item__content .content__item__img img {
@@ -438,12 +425,6 @@ table {
   width: 100%;
 }
 
-@media screen and (max-width: 768px) {
-  .wrapper aside .video__item img {
-    width: 50%;
-  }
-}
-
 .wrapper aside .mostviews {
   color: #3179C4;
   margin: 1rem 0;
@@ -478,7 +459,7 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 3rem;
+  line-height: 2rem;
   width: 70%;
   margin: auto;
   -webkit-box-pack: justify;
@@ -490,6 +471,16 @@ table {
   text-transform: uppercase;
   font-weight: bold;
   color: white;
+}
+
+@media screen and (max-width: 576px) {
+  .wrapper footer .nav .menu {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .wrapper footer .content {
