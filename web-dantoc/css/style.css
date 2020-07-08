@@ -89,7 +89,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 62.5%;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font: inherit;
   vertical-align: baseline;
 }
@@ -155,7 +155,7 @@ table {
 .wrapper header .search input {
   border-radius: 50px;
   width: 100%;
-  border: 1px solid #5E9FD1;
+  border: 1px solid #5e9fd1;
   padding-left: 1rem;
 }
 
@@ -198,11 +198,11 @@ table {
   line-height: 1.5rem;
   border-radius: 50px;
   color: white;
-  background-color: #D01918;
+  background-color: #d01918;
 }
 
 .wrapper header .lang__item--blue {
-  background-color: #4C95CC;
+  background-color: #4c95cc;
 }
 
 @media screen and (max-width: 768px) {
@@ -251,7 +251,7 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #418A58;
+  background-color: #418a58;
 }
 
 .wrapper nav .nav__menu--desktop {
@@ -299,7 +299,7 @@ table {
   top: 2rem;
   right: 0;
   text-align: right;
-  background-color: #418A58;
+  background-color: #418a58;
   z-index: 1000;
 }
 
@@ -340,8 +340,8 @@ table {
 }
 
 .wrapper section .category__item {
-  background-color: #FAFAFA;
-  border-top: 3px solid #418A58;
+  background-color: #fafafa;
+  border-top: 3px solid #418a58;
   padding: 1rem;
   height: 20rem;
   margin-bottom: 1rem;
@@ -374,7 +374,7 @@ table {
 }
 
 .wrapper aside .links {
-  color: #3179C4;
+  color: #3179c4;
   margin-bottom: 1rem;
 }
 
@@ -405,7 +405,7 @@ table {
 }
 
 .wrapper aside .video {
-  color: #3179C4;
+  color: #3179c4;
 }
 
 .wrapper aside .video__heading {
@@ -426,7 +426,7 @@ table {
 }
 
 .wrapper aside .mostviews {
-  color: #3179C4;
+  color: #3179c4;
   margin: 1rem 0;
 }
 
@@ -452,7 +452,7 @@ table {
 }
 
 .wrapper footer .nav {
-  background-color: #418A58;
+  background-color: #418a58;
 }
 
 .wrapper footer .nav .menu {

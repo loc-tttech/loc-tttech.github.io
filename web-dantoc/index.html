@@ -36,8 +36,12 @@
                 <div class="lang__item lang__item--blue">English</div>
               </div>
               <div class="lang lang--mobile col-2 col-md-7">
-                <div class="lang__item"><img src="assets/vietnamese.png" alt=""></div>
-                <div class="lang__item"><img src="assets/english.png" alt=""></div>
+                <div class="lang__item">
+                  <img src="assets/vietnamese.png" alt="" />
+                </div>
+                <div class="lang__item">
+                  <img src="assets/english.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -62,7 +66,7 @@
         </ul>
         <div class="nav__menu nav__menu--mobile">
           <div class="nav__menu__burger">
-            <img src="assets/burger.png" alt="">
+            <img src="assets/burger.png" alt="" />
           </div>
           <ul class="nav__menu__mobile">
             <li class="nav__menu__item">Trang chủ</li>
@@ -75,7 +79,7 @@
             <li class="nav__menu__item">Hình ảnh</li>
             <li class="nav__menu__item">Liên hệ</li>
             <li class="nav__menu__item">Văn hóa việt</li>
-          </ul>   
+          </ul>
         </div>
       </nav>
       <div class="container">
@@ -578,10 +582,9 @@
           autoplaySpeed: 3000,
         });
       });
-      $('.nav__menu__burger').click(function(){
-          $('.nav__menu__mobile').toggle();
-        });
-      
+      $(".nav__menu__burger").click(function () {
+        $(".nav__menu__mobile").toggle();
+      });
     </script>
   </body>
 </html>
