@@ -1,13 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Singapore</title>
-</head>
-<body>
-    <header></header>
-    <div class="main-container"></div>
-    <footer></footer>
-</body>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="container d-flex justify-content-between align-items-end">
+        <div class="logo">
+          シンガポール<br />
+          <span>くらしのガイド</span>
+        </div>
+        <div class="nav d-flex flex-column">
+          <div class="menu">
+            <ul class="d-flex justify-content-between">
+              <li>初めての方へ</li>
+              <li>ご利用の流れ</li>
+              <li>よくある質問</li>
+            </ul>
+          </div>
+          <div class="button">
+            マイページ
+          </div>
+        </div>
+      </header>
+      <div class="main-container">
+        <div class="banner single-item container">
+          <div class="slider-item">
+            <img src="assets/slide.jpg" alt="slide" />
+          </div>
+          <div class="slider-item">
+            <img src="assets/slide.jpg" alt="slide" />
+          </div>
+          <div class="slider-item">
+            <img src="assets/slide.jpg" alt="slide" />
+          </div>
+          <div class="slider-item">
+            <img src="assets/slide.jpg" alt="slide" />
+          </div>
+        </div>
+        <div class="intro container">
+          <div class="heading">エアコンメンテナンスについて</div>
+          <div class="details">
+            説明テキストが入ります。説明テキストが入ります。説明テキストが入ります。<br />
+            説明テキストが入ります。説明テキストが入ります。
+          </div>
+          <div class="button">初めての方へ</div>
+          <div class="img">
+            <img src="assets/intro1.png" alt="" />
+            <img src="assets/intro2.png" alt="" />
+            <img src="assets/intro3.jpg" alt="" />
+            <img src="assets/intro4.png" alt="" />
+            <img src="assets/intro5.png" alt="" />
+            <img src="assets/intro6.png" alt="" />
+          </div>
+        </div>
+        <div class="search">
+          <div class="search__input">
+            <div class="heading container">
+              エアコンメンテナンス業者比較
+            </div>
+            <div class="details container">
+              <div class="row">
+                <div class="col-4">
+                  <div class="details__heading">エリアで絞り込む</div>
+                  <div class="details__options"></div>
+                </div>
+                <div class="col-4">
+                  <div class="details__heading">タイプで絞り込む</div>
+                  <div class="details__options"></div>
+                </div>
+                <div class="col-4">
+                  絞り込む
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="search__result"></div>
+        </div>
+      </div>
+      <footer></footer>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".single-item").slick({
+          dots: true,
+          autoplay: true,
+          autoplaySpeed: 3000,
+        });
+      });
+    </script>
+  </body>
 </html>
