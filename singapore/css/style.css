@@ -438,4 +438,28 @@ table {
   line-height: 5rem;
   border-top: 1px solid var(--orange);
 }
+
+.wrapper .main-container .cost {
+  padding-top: 10rem;
+}
+
+.wrapper .main-container .cost .heading {
+  position: relative;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 5rem;
+}
+
+.wrapper .main-container .cost .heading:after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 5rem;
+  border-top: 1px solid var(--orange);
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
 /*# sourceMappingURL=style.css.map */
