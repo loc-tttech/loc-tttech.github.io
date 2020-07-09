@@ -396,12 +396,13 @@ table {
     }
     .cost{
       padding-top: 10rem;
+      
       .heading{
         position: relative;
         font-size: 2rem;
         text-align: center;
         font-weight: bold;
-        padding-bottom: 5rem;
+        padding: 5rem;
         &:after{
           position: absolute;
           content: "";
@@ -409,8 +410,39 @@ table {
           width: 5rem;
           border-top: 1px solid var(--orange);
           left: 50%;
-          top:50%;
+          top:70%;
           transform: translateX(-50%);
+        }
+      }
+      .sub{
+        text-align: center;
+        padding-bottom: 5rem;
+      }
+      .content{
+        .content__title{
+          font-weight: bold;
+          line-height: 2rem;
+        }
+        .content__table{
+          .content__item{
+            height: 5rem;
+            line-height: 5rem;
+            
+            margin-bottom: 0.1rem;
+            &>div{
+              &>div:nth-child(1){
+                background-color: var(--orange);
+                color: white;
+              }
+              &>div:nth-child(2){
+                background-color: #F5F5F5;
+              }
+            }
+          }
+        }
+        .content__description{
+          padding: 2rem 0;
+          line-height: 1.5rem;
         }
       }
     }

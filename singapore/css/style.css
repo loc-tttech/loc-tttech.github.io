@@ -448,7 +448,7 @@ table {
   font-size: 2rem;
   text-align: center;
   font-weight: bold;
-  padding-bottom: 5rem;
+  padding: 5rem;
 }
 
 .wrapper .main-container .cost .heading:after {
@@ -458,8 +458,38 @@ table {
   width: 5rem;
   border-top: 1px solid var(--orange);
   left: 50%;
-  top: 50%;
+  top: 70%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+}
+
+.wrapper .main-container .cost .sub {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.wrapper .main-container .cost .content .content__title {
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+.wrapper .main-container .cost .content .content__table .content__item {
+  height: 5rem;
+  line-height: 5rem;
+  margin-bottom: 0.1rem;
+}
+
+.wrapper .main-container .cost .content .content__table .content__item > div > div:nth-child(1) {
+  background-color: var(--orange);
+  color: white;
+}
+
+.wrapper .main-container .cost .content .content__table .content__item > div > div:nth-child(2) {
+  background-color: #F5F5F5;
+}
+
+.wrapper .main-container .cost .content .content__description {
+  padding: 2rem 0;
+  line-height: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
