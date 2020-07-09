@@ -87,7 +87,7 @@
           border: 1px solid var(--orange);
           border-radius: 5px;
           transition: 0.2s;
-          &:hover {
+          &:active {
             color: white;
             background-color: var(--orange);
           }

@@ -96,7 +96,7 @@
   transition: 0.2s;
 }
 
-.index .main-container .intro .button:hover {
+.index .main-container .intro .button:active {
   color: white;
   background-color: var(--orange);
 }
