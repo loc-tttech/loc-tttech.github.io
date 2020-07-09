@@ -198,8 +198,11 @@ table {
 
 .wrapper .main-container .intro {
   text-align: center;
-  padding: 10rem 0;
+}
+
+.wrapper .main-container .intro > div {
   position: relative;
+  padding: 10rem 0;
 }
 
 .wrapper .main-container .intro .heading {
@@ -304,52 +307,52 @@ table {
   border-radius: 5px;
 }
 
-.wrapper .main-container .search .search__result {
+.wrapper .main-container .search .search__label {
   background-color: #f5f5f5;
   height: 6rem;
   padding-top: 3rem;
 }
 
-.wrapper .main-container .search .search__result .label {
+.wrapper .main-container .search .search__label > div {
   text-align: center;
   line-height: 3rem;
 }
 
-.wrapper .main-container .search .search__result .label .label__item {
+.wrapper .main-container .search .search__label > div .label__item {
   background-color: #e5e5e5;
   padding: 0 4rem;
 }
 
-.wrapper .main-container .search .search__result .label .label__item--active {
+.wrapper .main-container .search .search__label > div .label__item--active {
   background-color: white;
 }
 
-.wrapper .main-container .search .search__result .result {
+.wrapper .main-container .search .search__result {
   padding: 6rem 0;
 }
 
-.wrapper .main-container .search .search__result .result .heading {
+.wrapper .main-container .search .search__result .heading {
   text-align: center;
   font-size: 1.5rem;
   padding: 2rem 0;
 }
 
-.wrapper .main-container .search .search__result .result .result__item {
+.wrapper .main-container .search .search__result .result__item {
   border-bottom: 1px solid #f5f5f5;
   padding: 2rem 0;
 }
 
-.wrapper .main-container .search .search__result .result .result__item .button {
+.wrapper .main-container .search .search__result .result__item .button {
   background-color: #f5f5f5;
   padding: 2rem 0;
   text-align: center;
 }
 
-.wrapper .main-container .search .search__result .result .result__item .button__price {
+.wrapper .main-container .search .search__result .result__item .button__price {
   font-size: 1.5rem;
 }
 
-.wrapper .main-container .search .search__result .result .result__item .button__submit {
+.wrapper .main-container .search .search__result .result__item .button__submit {
   width: 70%;
   margin: 1rem auto;
   height: 3rem;
@@ -358,5 +361,81 @@ table {
   line-height: 3rem;
   color: white;
   font-weight: bold;
+}
+
+.wrapper .main-container .comment {
+  background-color: #fcfcf0;
+  padding: 5rem 0;
+}
+
+.wrapper .main-container .comment .bubble {
+  width: 12rem;
+  margin: auto;
+  border-radius: 40px;
+  background-color: var(--orange);
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 2rem;
+  position: relative;
+}
+
+.wrapper .main-container .comment .bubble:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  border-bottom: 0.5rem solid var(--orange);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  bottom: -0.3rem;
+}
+
+.wrapper .main-container .comment .heading {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.wrapper .main-container .comment .content {
+  padding: 2rem;
+}
+
+.wrapper .main-container .comment .content .content__item {
+  margin: 2rem 0;
+}
+
+.wrapper .main-container .comment .content .details {
+  position: relative;
+  background-color: white;
+  padding: 2rem;
+  padding-bottom: 0;
+  border-radius: 5px;
+}
+
+.wrapper .main-container .comment .content .details:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 2rem solid white;
+  border-right: 2rem solid transparent;
+  border-bottom: 2rem solid transparent;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  left: -1rem;
+}
+
+.wrapper .main-container .comment .content .details .details__comment {
+  padding-bottom: 5rem;
+}
+
+.wrapper .main-container .comment .content .details .details__info {
+  font-size: 0.8rem;
+  height: 5rem;
+  line-height: 5rem;
+  border-top: 1px solid var(--orange);
 }
 /*# sourceMappingURL=style.css.map */
