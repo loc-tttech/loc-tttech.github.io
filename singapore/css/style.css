@@ -190,6 +190,13 @@ table {
   border-radius: 10px;
   text-align: center;
   line-height: 3rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.wrapper header .nav .button:active {
+  color: var(--orange);
+  background-color: white;
 }
 
 .wrapper .main-container .banner .slider-item img {
@@ -227,6 +234,13 @@ table {
   padding: 1rem 3rem;
   border: 1px solid var(--orange);
   border-radius: 5px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.wrapper .main-container .intro .button:hover {
+  color: white;
+  background-color: var(--orange);
 }
 
 .wrapper .main-container .intro .img img {
@@ -305,6 +319,13 @@ table {
   background-color: var(--orange);
   line-height: 3rem;
   border-radius: 5px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.wrapper .main-container .search .search__input .details .button:active {
+  color: var(--orange);
+  background-color: white;
 }
 
 .wrapper .main-container .search .search__label {
@@ -361,6 +382,13 @@ table {
   line-height: 3rem;
   color: white;
   font-weight: bold;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.wrapper .main-container .search .search__result .result__item .button__submit:active {
+  color: var(--orange);
+  background-color: white;
 }
 
 .wrapper .main-container .comment {
@@ -486,7 +514,7 @@ table {
 }
 
 .wrapper .main-container .cost .content .content__table .content__item > div > div:nth-child(2) {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 .wrapper .main-container .cost .content .content__description {
@@ -495,7 +523,7 @@ table {
 }
 
 .wrapper .main-container .cost .content .benefit .benefit__item {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   padding: 2rem 0;
   border-radius: 10px;
   margin-bottom: 1.5rem;
@@ -573,11 +601,11 @@ table {
 .wrapper .main-container .cost .blog .date {
   text-align: right;
   padding-bottom: 2rem;
-  color: #AAAAAA;
+  color: #aaaaaa;
 }
 
 .wrapper footer {
-  background-color: #4B4D46;
+  background-color: #4b4d46;
   color: white;
   padding: 5rem 0;
   text-align: center;

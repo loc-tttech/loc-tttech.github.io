@@ -175,6 +175,11 @@ table {
         border-radius: 10px;
         text-align: center;
         line-height: 3rem;
+        transition: 0.2s;
+        &:active {
+          color: var(--orange);
+          background-color: white;
+        }
       }
     }
   }
@@ -212,6 +217,11 @@ table {
         padding: 1rem 3rem;
         border: 1px solid var(--orange);
         border-radius: 5px;
+        transition: 0.2s;
+        &:hover {
+          color: white;
+          background-color: var(--orange);
+        }
       }
       .img {
         img {
@@ -280,6 +290,11 @@ table {
             background-color: var(--orange);
             line-height: 3rem;
             border-radius: 5px;
+            transition: 0.2s;
+            &:active {
+              color: var(--orange);
+              background-color: white;
+            }
           }
         }
       }
@@ -325,6 +340,11 @@ table {
               line-height: 3rem;
               color: white;
               font-weight: bold;
+              transition: 0.2s;
+              &:active {
+                color: var(--orange);
+                background-color: white;
+              }
             }
           }
         }
@@ -353,25 +373,25 @@ table {
           border-bottom: 0.5rem solid var(--orange);
           transform: rotate(-45deg);
           bottom: -0.3rem;
-        } 
+        }
       }
-      .heading{
+      .heading {
         padding: 2rem;
         text-align: center;
         font-size: 1.5rem;
       }
-      .content{
+      .content {
         padding: 2rem;
-        .content__item{
+        .content__item {
           margin: 2rem 0;
         }
-        .details{
+        .details {
           position: relative;
           background-color: white;
           padding: 2rem;
           padding-bottom: 0;
           border-radius: 5px;
-          &:before{
+          &:before {
             position: absolute;
             content: "";
             width: 0;
@@ -382,10 +402,10 @@ table {
             transform: rotate(-45deg);
             left: -1rem;
           }
-          .details__comment{
+          .details__comment {
             padding-bottom: 5rem;
           }
-          .details__info{
+          .details__info {
             font-size: 0.8rem;
             height: 5rem;
             line-height: 5rem;
@@ -394,88 +414,87 @@ table {
         }
       }
     }
-    .cost{
+    .cost {
       padding-top: 10rem;
-      
-      .heading{
+
+      .heading {
         position: relative;
         font-size: 2rem;
         text-align: center;
         font-weight: bold;
         padding: 5rem;
-        &:after{
+        &:after {
           position: absolute;
           content: "";
-          height:1px;
+          height: 1px;
           width: 5rem;
           border-top: 1px solid var(--orange);
           left: 50%;
-          top:70%;
+          top: 70%;
           transform: translateX(-50%);
         }
       }
-      .sub{
+      .sub {
         text-align: center;
         padding-bottom: 5rem;
         line-height: 1.5rem;
       }
-      .content{
-        .content__title{
+      .content {
+        .content__title {
           font-weight: bold;
           line-height: 2rem;
         }
-        .content__table{
-          .content__item{
+        .content__table {
+          .content__item {
             height: 5rem;
             line-height: 5rem;
-            
+
             margin-bottom: 0.1rem;
-            &>div{
-              &>div:nth-child(1){
+            & > div {
+              & > div:nth-child(1) {
                 background-color: var(--orange);
                 color: white;
               }
-              &>div:nth-child(2){
-                background-color: #F5F5F5;
+              & > div:nth-child(2) {
+                background-color: #f5f5f5;
               }
             }
           }
         }
-        .content__description{
+        .content__description {
           padding: 2rem 0;
           line-height: 1.5rem;
         }
-        .benefit{
-          .benefit__item{
-            background-color: #F5F5F5;
+        .benefit {
+          .benefit__item {
+            background-color: #f5f5f5;
             padding: 2rem 0;
             border-radius: 10px;
             margin-bottom: 1.5rem;
-            .title{
+            .title {
               text-align: center;
               color: var(--orange);
               font-size: 1.5rem;
               font-weight: bold;
               line-height: 2.5rem;
-              span{
+              span {
                 font-size: 3rem;
               }
               padding: 1rem 0;
             }
-            .details{
+            .details {
               text-align: center;
               line-height: 1.5;
             }
           }
         }
-        
       }
-      .result{
+      .result {
         padding: 3rem 0;
-        img{
+        img {
           width: 100%;
         }
-        .details{
+        .details {
           width: 10rem;
           height: 3rem;
           line-height: 3rem;
@@ -487,52 +506,52 @@ table {
           text-align: center;
         }
       }
-      .steps{
-        .img{
-          img{
+      .steps {
+        .img {
+          img {
             width: 100%;
           }
         }
-        .number{
+        .number {
           width: 2rem;
           height: 2rem;
           border-radius: 100%;
           background-color: var(--orange);
           color: white;
-          position: absolute; 
+          position: absolute;
           top: 10px;
           left: 30px;
         }
-        .caption{
+        .caption {
           text-align: center;
           padding-top: 1.5rem;
           padding-bottom: 4rem;
         }
       }
-      .blog{
-        .img{
-          img{
+      .blog {
+        .img {
+          img {
             width: 100%;
           }
         }
-        .details{
+        .details {
           padding: 1rem 0 2rem 0;
           height: 8rem;
         }
-        .date{
+        .date {
           text-align: right;
           padding-bottom: 2rem;
-          color: #AAAAAA;
+          color: #aaaaaa;
         }
       }
     }
   }
-  footer{
-    background-color:#4B4D46 ;
+  footer {
+    background-color: #4b4d46;
     color: white;
     padding: 5rem 0;
     text-align: center;
-    .footer__logo{
+    .footer__logo {
       font-size: 1.5rem;
       line-height: 2.5rem;
       padding-bottom: 2rem;
@@ -541,44 +560,43 @@ table {
         font-weight: bold;
       }
     }
-    .footer__menu{
+    .footer__menu {
       border-top: 1px solid #707070;
       border-bottom: 1px solid #707070;
       line-height: 3rem;
       font-weight: bold;
-      ul{
-        li{
+      ul {
+        li {
           padding: 0 2rem;
         }
       }
     }
-    .footer__nav{
+    .footer__nav {
       padding: 4rem 0;
-      ul{
-        li{
+      ul {
+        li {
           padding: 0 2rem;
-          &:before{
+          &:before {
             content: "";
             height: 1rem;
             width: 1px;
             position: absolute;
             border-left: 1px solid #707070;
-            left:55.8%;
+            left: 55.8%;
           }
-          &:after{
+          &:after {
             content: "";
             height: 1rem;
             width: 1px;
             position: absolute;
             border-left: 1px solid #707070;
-            right:55.8%;
+            right: 55.8%;
           }
         }
       }
     }
-    .copyright{
+    .copyright {
       color: #707070;
-      
     }
   }
 }
