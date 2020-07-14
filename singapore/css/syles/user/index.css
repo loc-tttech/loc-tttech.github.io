@@ -16,8 +16,6 @@ body{
         font-size: 11px;
     }}
 
- 
-
 .section-title{
     font-size: 2.5rem;
     font-weight: bold;
@@ -79,7 +77,6 @@ li{
     }
 }
 
-
 /* --------------------------- Banner ----------------------------------------- */
 
 .banner{
@@ -108,62 +105,35 @@ li{
     color: #F5F5F5;
 }
 
-
 /* --------------------------------- CONTENT --------------------------- */
 
-/* --------------------------------- new-products and hot-products ---------------------------*/
 
-.home .new-products-list{
-    margin-top: 100px;
-    padding: 0;
-}
-
-.home .new-products-item{
-    background-color: #F5F5F5;
-    margin-top: 20px;
-    padding: 30px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-/* ----------- */
-
-.home .hot-products .other-list{
+.index-user .change-list{
     margin: 50px 0;
 }
 
-.home .hot-products .other-item{
+.index-user .change-item{
     position: relative;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.home .hot-products .other-item .card{
+.index-user .change-item .card{
     cursor: pointer;
+
 }
 
-.home .hot-products .other-item-1 .card{
-    background-image: url('../../img/other-item-1.png');
-    background-size: cover;
+.index-user .change-item .card .card-body{
+    padding: 50px;
+    height: 220px;
 }
 
-.home .hot-products .other-item-2 .card{
-    background-image: url('../../img/other-item-2.png');
-    background-size: cover;
-}
-
-.home .hot-products .other-item-3 .card{
-    background-image: url('../../img/other-item-3.png');
-    background-size: cover;
-}
-
-.home .hot-products .other-item .card .card-title{
-    height: 100px;
-    line-height: 100px;
+.index-user .change-item .card .card-body .title-bold{
+    height: 50px;
 }
 
 
-.home .hot-products .other-item .icon-next{
+.index-user .change-item .icon-next{
     position: absolute;
     margin-right: 20px;
     right: 0;
@@ -171,48 +141,8 @@ li{
     transform: translateY(50%);
 }
 
-.home .hot-products .other-item .icon-next .fa-chevron-right{
+.index-user .change-item .icon-next .fa-chevron-right{
     font-size: 1.5rem;
 }
 
 
-
-
-
-/* -------------------------------------- recently-products and recommended-products ------------------------------ */
-
-.recently-products-list{
-    margin-top: 50px;
-}
-
-.carousel {
-    background: rgb(255, 255, 255);
-  }
-  
-  .carousel-cell {
-    width: 27%;
-    margin-right: 10px;
-    background: #8C8;
-    border-radius: 5px;
-    counter-increment: carousel-cell;
-  }
-
-  @media (max-width: 976px){
-    .carousel-cell {
-        width: 40%;
-      }
-  }
-  
-  .carousel-cell.is-selected {
-    background: #ED2;
-  }
-  
-  /* cell number */
-  .carousel-cell:before {
-    display: block;
-    text-align: center;
-    line-height: 200px;
-    font-size: 80px;
-    color: white;
-  }
-  
