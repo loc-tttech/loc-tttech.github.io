@@ -5,34 +5,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/syles/registration.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
 <body>
 
-    <!-- ------------------------ HEADER ----------------------------- -->
-    <header>
-        <img class="background-header" src="../img/h1.png" alt="h1">
-        <h1 class="header-title">
-            ログイン
-        </h1>
-    </header>
-    <!-- ------------------------ CONTENT ----------------------------- -->
-
-    <div class="content">
-        <div class="container text-center p-3">
-            <button type="button" class="btn button">
+    <div class="registration">
+        <!-- ------------------------ HEADER ----------------------------- -->
+        <div class="banner">
+            <img class="background-banner" src="../img/h1.png" alt="h1">
+            <h1 class="banner-title">
                 ログイン
-            </button>
-            <div class="text-center p-2">
-                
-                <a href="./registration4.html" class="btn btn-outline-primary btn-lg">プレ </a> &nbsp;
-                <a href="../home.html" class="btn btn-outline-success btn-lg">マイページ</a>
+            </h1>
+        </div>
+        <!-- ------------------------ CONTENT ----------------------------- -->
+
+        <div class="container mb-5">
+            <div class="container-register">
+
+                <div class="row text-center register-form">
+
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 mt-5">
+                        <div class="text-center">
+                            <h4 class="title-bold">
+                                メールアドレスでログイン
+                            </h4>
+                            <form class="form-group email-form">
+                                <input type="text" class="form-control p-4 mt-4" name="" id="" aria-describedby="helpId"
+                                    placeholder="メールアドレス">
+                                <input type="password" class="form-control p-4 mt-4" name="" id="" aria-describedby="helpId"
+                                    placeholder="パスワード">
+                                <button type="submit" class="btn button mt-5">
+                                    新規会員登録する
+                                </button>
+                                <div class="text-center mt-3">
+                                    <a href="#">
+                                        <p class="title-md">パスワードをお忘れの方</p>
+                                    </a>
+                                    <a href="#">
+                                        <p class="title-md">新規会員登録</p>
+                                    </a>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 mt-5 box-item">
+                        <h4 class="title-bold">
+                            外部サイトIDでログイン
+                        </h4>
+                        <button type="button" class="btn btn-line-app">
+                            <div class="logo-line">
+                                <img src="../img/btn-line-app.png" alt="">
+                            </div>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <h6 class="title-xs">
+                    ※「新規会員登録する」を選択したことで、利用規約に同意されたものといたします。
+                </h6>
             </div>
         </div>
+
     </div>
+
 </body>
 
 </html>

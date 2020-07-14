@@ -127,21 +127,39 @@ body{
     font-weight: 700;
   }
 
-  .button {
+.registration .button {
     border: 2px solid #F29205 !important;
     padding: 10px 50px !important;
     background-color: #FFFFFF !important;
     color: #F29205 !important;
     font-weight: 700;
-
+    width: 270px;
 
 }
 
-.button:hover {
+
+.registration .button:hover {
     border: 2px solid #F29205 !important;
     padding: 10px 50px !important;
     color: #FFFFFF !important;
     background-color: #F29205 !important;
+}
+
+.registration .btn-outline-dark{
+    border: 2px solid #E5E5E5 !important;
+    padding: 10px 50px !important;
+    background-color: #FFFFFF !important;
+    color: #E5E5E5 !important;
+    font-weight: 700;
+    width: 270px;
+
+}
+
+.registration .btn-outline-dark:hover {
+    border: 2px solid #E5E5E5 !important;
+    padding: 10px 50px !important;
+    color: #FFFFFF !important;
+    background-color: #E5E5E5 !important;
 }
 
 
@@ -184,25 +202,25 @@ li{
 }
 
 
-/* --------------------------- Header ----------------------------------------- */
+/* --------------------------- Banner ----------------------------------------- */
 
-header{
+.banner{
     position: relative;
 }
 
-.background-header{
+.background-banner{
     width: 100%;
     height: 300px;
 }
 
 @media (max-width : 1000px){
-    .background-header{
+    .background-banner{
         width: 100%;
         height: 150px;
     }
 }
 
-.header-title{
+.banner-title{
     position: absolute;
     top: 40%;
     left: 50%;
@@ -296,4 +314,25 @@ header{
 
 .registration .message-email .container-text a{
     color: black;
+}
+
+/* -------------------------------- registration step 3 ---------------------------------- */
+
+
+.registration .form-register-password{
+    width: 100%;
+    max-width: 600px;
+    padding-top: 100px;
+    margin: auto;
+}
+
+
+/* -------------------------------- registration step 4 ---------------------------------- */
+
+.registration .container-button{
+    width: 100%;
+    max-width: 600px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }

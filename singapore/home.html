@@ -5,28 +5,318 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registration</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/syles/home.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+    <!-- ------------------- cdn flickity ------------------------ -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 </head>
 
 <body>
 
-    <!-- ------------------------ HEADER ----------------------------- -->
-    <header>
-        <img class="background-header" src="./img/h1.png" alt="h1">
-        <h1 class="header-title">
-            マイページ
-        </h1>
-    </header>
-    <!-- ------------------------ CONTENT ----------------------------- -->
-
-    <div class="container">
-        <div class="text-center mt-2">
-            <a href="./login/login.html" class="btn btn-outline-primary btn-lg">プレ </a> &nbsp;
-            <a href="./home.html" class="btn btn-outline-success btn-lg">マイページ</a>
+    <div class="home">
+        <!-- ------------------------ banner ----------------------------- -->
+        <div class="banner">
+            <img class="background-banner" src="./img/h1.png" alt="h1">
+            <h1 class="banner-title">
+                マイページ
+            </h1>
         </div>
+        <!-- ------------------------ CONTENT ----------------------------- -->
+
+        <div class="container">
+
+            <section class="new-products container">
+                <div class="box-text text-center">
+                    <h2 class="section-title mt-5">
+                        新着予約
+                    </h2>
+                    <hr class="line-xs" />
+                </div>
+                <ul class="new-products-list">
+                    <li class="new-products-item row text-center">
+
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 bd-right-md">
+                            <small>2020/01/01</small>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <h6>A社｜エアコンメンテナンス</h6>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <h6 class="title-gray">
+                                予約番号：123456781234
+                            </h6>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 bd-top-xs">
+
+                            <h6 class="title-md">
+                                予約の内容の確認・キャンセル
+                                <i class="fas fa-chevron-right"></i>
+                            </h6>
+                        </div>
+
+                    </li>
+                    <li class="new-products-item row text-center">
+
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 bd-right-md">
+                            <small>2020/01/01</small>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <h6>A社｜エアコンメンテナンス</h6>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <h6 class="title-gray">
+                                予約番号：123456781234
+                            </h6>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 bd-top-xs">
+                            <h6 class="title-md">
+                                予約の内容の確認・キャンセル
+                                <i class="fas fa-chevron-right"></i>
+                            </h6>
+                        </div>
+
+                    </li>
+                    <li class="new-products-item row text-center">
+
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 bd-right-md">
+                            <small>2020/01/01</small>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <h6>A社｜エアコンメンテナンス</h6>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <h6 class="title-gray">
+                                予約番号：123456781234
+                            </h6>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 bd-top-xs">
+                            <h6 class="title-md">
+                                予約の内容の確認・キャンセル
+                                <i class="fas fa-chevron-right"></i>
+                            </h6>
+                        </div>
+
+                    </li>
+                </ul>
+            </section>
+
+            <section class="hot-products">
+                <div class="container">
+                    <div class="box-text text-center">
+                        <h2 class="section-title mt-5">
+                            最近入力した口コミ
+                        </h2>
+                        <hr class="line-xs" />
+                    </div>
+                    <ul class="new-products-list">
+                        <li class="new-products-item row text-center">
+
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 bd-right-md">
+                                <small>2020/01/01</small>
+                            </div>
+                            <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 text-left">
+                                <h6>3台お願いしましたが、手際良く作業して頂きました。 家財の養生もしていただき、何…も問題な…く終えていただきました。 ありがとうございました。</h6>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 bd-top-xs">
+                                <h6 class="title-md">
+                                    口コミを見る
+                                    <i class="fas fa-chevron-right"></i>
+                                </h6>
+                            </div>
+
+                        </li>
+                        <li class="new-products-item row text-center">
+
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 bd-right-md">
+                                <small>2020/01/01</small>
+                            </div>
+                            <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 text-left">
+                                <h6>3台お願いしましたが、手際良く作業して頂きました。 家財の養生もしていただき、何…も問題な…く終えていただきました。 ありがとうございました。</h6>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 bd-top-xs">
+                                <h6 class="title-md">
+                                    口コミを見る
+                                    <i class="fas fa-chevron-right"></i>
+                                </h6>
+                            </div>
+
+                        </li>
+                        <li class="new-products-item row text-center">
+
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 bd-right-md">
+                                <small>2020/01/01</small>
+                            </div>
+                            <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 text-left">
+                                <h6>3台お願いしましたが、手際良く作業して頂きました。 家財の養生もしていただき、何…も問題な…く終えていただきました。 ありがとうございました。</h6>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 bd-top-xs">
+                                <h6 class="title-md">
+                                    口コミを見る
+                                    <i class="fas fa-chevron-right"></i>
+                                </h6>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="row other-list">
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 other-item other-item-1">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h4 class="card-title">登録内容</h4>
+                            </div>
+                            <div class="icon-next title-md">
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 other-item other-item-2">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h4 class="card-title">予約の管理</h4>
+                            </div>
+                            <div class="icon-next title-md">
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 other-item other-item-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h4 class="card-title">口コミ投稿</h4>
+                            </div>
+                            <div class="icon-next title-md">
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+            </section>
+
+            <section class="recently-products">
+                <div class="box-text text-center">
+                    <h2 class="section-title mt-5">
+                        最近入力した口コミ
+                    </h2>
+                    <hr class="line-xs" />
+                </div>
+                <div class="recently-products-list">
+                    <div class="carousel" data-flickity='{ "groupCells": 2 }'>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section class="recently-products">
+                <div class="box-text text-center">
+                    <h2 class="section-title mt-5">
+                        あなたにおすすめの業者
+                    </h2>
+                    <hr class="line-xs" />
+                </div>
+                <div class="recently-products-list">
+                    <div class="carousel" data-flickity='{ "groupCells": 2 }'>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./img/product-item.png" alt="" width="100%" height="100%">
+                            <button type="button" class="btn btn-light btn-block">10,000円(税込)</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Flickity HTML init -->
+
+
+        </div>
+
     </div>
+
+    </div>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 </body>
 
