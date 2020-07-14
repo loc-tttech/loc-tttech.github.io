@@ -5,41 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>change email</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/syles/user/changeEmail.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
 <body>
 
-    <!-- ------------------------ HEADER ----------------------------- -->
-    <header>
-        <img class="background-header" src="../img/h1.png" alt="h1">
-        <h1 class="header-title">
-            マイページ
-        </h1>
-    </header>
-    <!-- ------------------------ CONTENT ----------------------------- -->
-
-    <div class="container">
-        <div class="box-text text-center">
-
-            <h2 class="section-title mt-5">
-                メールアドレス変更
-            </h2>
-
-            <h6 class="title-xs">
-                新たに登録したいメールアドレスを入力してください。
-            </h6>
+    <div class="change-email">
+        <!-- ------------------------ banner ----------------------------- -->
+        <div class="banner">
+            <img class="background-banner" src="../img/h1.png" alt="h1">
+            <h1 class="banner-title">
+                マイページ
+            </h1>
         </div>
-        <div class="mt-5 mb-5 text-center">
+        <!-- ------------------------ CONTENT ----------------------------- -->
 
-            <img src="../img/changeEmail-block.png" alt="" width="100%">
+        <div class="container">
+            <div class="box-text text-center">
 
-            <a href="./index.html" class="btn button">変更する</a>
+                <h2 class="section-title mt-5">
+                    メールアドレス変更
+                </h2>
+
+                <h6 class="title-xs">
+                    新たに登録したいメールアドレスを入力してください。
+                </h6>
+            </div>
+            <div class="box-form-change text-center">
+                <div class="form-group email-form">
+                    <h5 class="title-bold">
+                        現在のメールアドレス
+                    </h5>
+                    <input type="text" class="form-control text-center p-4" disabled aria-describedby="helpId"
+                        placeholder="mail@sample.com">
+                    <input type="text" class="form-control p-4" name="" id="" aria-describedby="helpId"
+                        placeholder="新しいメールアドレス">
+                    <button type="submit" class="btn button mt-5">
+                        変更する
+                    </button>
+                </div>
+                <hr class="mt-5">
+                <div class="check-form text-center">
+                    <h5 class="title-bold">
+                        お知らせメールの購読を希望する場合は、
+                        チェックを入れてください。
+                    </h5>
+                    <label class="container mt-5">
+                        <p>くらしのガイドのお得な情報を受け取る</p>
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark mr-2"></span>
+                    </label>
+                    <button type="submit" class="btn button mt-5">
+                        変更する
+                    </button>
+                </div>
+            </div>
 
         </div>
-        
     </div>
 
 </body>
