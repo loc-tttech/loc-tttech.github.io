@@ -1,0 +1,106 @@
+.blog__detail{
+    .detail__date{
+        .heading {
+            position: relative;
+            text-align: center;
+            color: #f29205;
+            font-weight: bold;
+            padding: 5rem;
+            &:after {
+                position: absolute;
+                content: "";
+                height: 0.1rem;
+                width: 4rem;
+                border-top: 0.1rem solid #f29205;
+                left: 50%;
+                top: 70%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+    .detail__title{
+        .heading {
+            position: relative;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            padding: 5rem;
+            &:after {
+                position: absolute;
+                content: "";
+                height: 0.1rem;
+                width: 4rem;
+                border-top: 0.1rem solid #f29205;
+                left: 50%;
+                top: 70%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+    .detail__content{
+        img{
+            width: 100%;
+            border-radius: 1.3rem;
+            -moz-border-radius: 1.3rem;
+            -webkit-border-radius: 1.3rem;
+            -ms-border-radius: 1.3rem;
+            -o-border-radius: 1.3rem;
+        }
+        .img__main{
+            margin-bottom: 5rem;
+        }
+        .img__group{
+            padding-bottom: 5rem;
+        }
+        p{
+            padding-bottom: 5rem;;
+        }
+    }
+    .detail__box{
+        .box__content{
+            background-color: #f5f5f5;
+            padding: 5rem;
+            margin: 5rem 0;
+            text-align: center;
+            border-radius: 1rem;
+                -moz-border-radius: 1rem;
+                -webkit-border-radius: 1rem;
+                -ms-border-radius: 1rem;
+                -o-border-radius: 1rem;
+            p{
+                font-weight: bold;
+            }
+            .box__icon{
+                width: 50px;
+                height: 50px;
+                padding: 0;
+                margin: 1rem ;
+                border-radius: 50%;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+        }
+        .box__button{
+            text-align: center;
+            button{
+                width: 25rem;
+                border: 0.2rem #f29205 solid;
+                color: #f29205;
+                background-color: #ffffff;
+                padding: 1rem;
+                border-radius: 0.5rem;
+                -moz-border-radius: 0.5rem;
+                -webkit-border-radius: 0.5rem;
+                -ms-border-radius: 0.5rem;
+                -o-border-radius: 0.5rem;
+                font-weight: bold;
+            }
+            button:active{
+                background-color: #F29205;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

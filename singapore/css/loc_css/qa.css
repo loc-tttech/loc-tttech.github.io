@@ -1,0 +1,55 @@
+.qa .qa__paragraph .heading {
+  position: relative;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  padding: 5rem;
+}
+
+.qa .qa__paragraph .heading:after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 5rem;
+  border-top: 1px solid var(--orange);
+  left: 50%;
+  top: 70%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.qa .accordion .qa__box {
+  border: 0.1rem #F5F5F5 solid;
+  background-color: #F5F5F5;
+  border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  text-align: left;
+  margin: 1rem 0;
+}
+
+.qa .accordion .qa__box .qa__box_title {
+  font-weight: bold;
+  padding: 2rem 0;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.qa .accordion .qa__box .qa__box_title .col-1 {
+  color: #F29205;
+  padding: 0;
+}
+
+.qa .accordion .qa__box .qa__box_content {
+  padding: 2rem 0;
+  width: 95%;
+  margin: 0 auto;
+  border-top: 0.1rem #ffffff solid;
+}
+
+.qa .accordion .active {
+  background-color: #F8E7CD;
+}
+/*# sourceMappingURL=qa.css.map */

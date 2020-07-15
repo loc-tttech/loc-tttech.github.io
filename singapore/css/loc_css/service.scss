@@ -1,0 +1,74 @@
+.service{
+    padding: 5rem 0;
+    .service__item{
+        margin: 2rem 0;
+        background-color: #f5f5f5;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        -moz-border-radius: 0.5rem;
+        -webkit-border-radius: 0.5rem;
+        -ms-border-radius: 0.5rem;
+        -o-border-radius: 0.5rem;
+        .service__left{
+            text-align: center;
+            border-right: 0.1rem #CCCCCC solid;
+            border-bottom: none;
+            display: inline-flex;
+            align-items: center;
+            color: #f29205;
+            font-weight: bold;
+            label{
+                padding: 1rem;
+                font-size: 2rem;
+                margin: 0;
+            }
+        }
+        .service__center{
+            padding: 2rem;
+            display: flex;
+            align-items: center;
+        }
+        .service__right{
+            display: flex;
+            align-items: center;
+            padding-right: 3rem;
+            button{
+                border: 0.1rem #e5e5e5 solid;
+                color: #ffffff;
+                font-weight: bold;
+                width: 100%;
+                margin: 1rem auto;
+                background-image: linear-gradient(#EC8C8C,#D95454);
+                padding: 0.5rem 1rem;
+                border-radius: 0.5rem;
+                -moz-border-radius: 0.5rem;
+                -webkit-border-radius: 0.5rem;
+                -ms-border-radius: 0.5rem;
+                -o-border-radius: 0.5rem;
+            }
+            button:active{
+                color: #E16B6B;
+                background-image: linear-gradient(#ffffff,#aaaaaa);
+            }
+        }
+    }
+}
+@media(max-width:768px){
+    .service{
+        .service__item{
+            .row{
+                padding: 0 2rem;
+            }
+            .service__left{
+                border-right: none;
+                border-bottom: 0.1rem #CCCCCC solid;
+            }
+            .service__center{
+                padding: 2rem 0 ;
+            }
+            .service__right{
+                padding: 0;
+            }
+        }
+    }
+}
