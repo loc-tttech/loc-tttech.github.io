@@ -5,41 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>blocked user</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/syles/user/blockedUser.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
 <body>
 
-    <!-- ------------------------ HEADER ----------------------------- -->
-    <header>
-        <img class="background-header" src="../img/h1.png" alt="h1">
-        <h1 class="header-title">
-            マイページ
-        </h1>
-    </header>
-    <!-- ------------------------ CONTENT ----------------------------- -->
+    <div class="blocked-user">
 
-    <div class="container">
-        <div class="box-text text-center">
 
-            <h2 class="section-title mt-5">
-                退会
-            </h2>
-
-            <h6 class="title-xs">
-                くらしのマーケットから退会します。
-            </h6>
+        <!-- ------------------------ banner ----------------------------- -->
+        <div class="banner">
+            <img class="background-banner" src="../img/h1.png" alt="h1">
+            <h1 class="banner-title">
+                マイページ
+            </h1>
         </div>
-        <div class="mt-5 mb-5 text-center">
+        <!-- ------------------------ CONTENT ----------------------------- -->
 
-            <img src="../img/blockedUser-block.png" alt="" width="100%">
+        <div class="container">
+            <div class="box-text text-center">
 
-            <a href="./index.html" class="btn button">変更する</a>
+                <h2 class="section-title mt-5">
+                    退会
+                </h2>
+
+                <h6 class="title-xs">
+                    くらしのマーケットから退会します。
+                </h6>
+            </div>
+            <div class="mt-5 mb-5 text-center">
+
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text p-5">
+                            ・登録情報は、一定期間経過後に削除されます。
+                            　この猶予期間はサービス利用に関するトラブルを防止するために設けられています。
+                        </p>
+                    </div>
+                </div>
+
+                <h6 class="mt-5 mb-5">本当に退会してもよろしいですか？</h6>
+
+                <div class="container-button row">
+
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 mt-4">
+                        <button type="button" class="btn button">変更する</button>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 mt-4">
+                        <button type="submit" class="btn btn-outline-dark">変更する</button>
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
-        
     </div>
 
 </body>

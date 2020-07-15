@@ -1,0 +1,158 @@
+*,html{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    padding-bottom: 200px;
+}
+
+@media (max-width : 1000px){
+    html{
+        font-size: 11px;
+    }}
+
+ 
+
+.section-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.title-md{
+    color: #F29205;
+    font-weight: 700;
+}
+
+.title-xs{
+    font-size: 1rem;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.title-bold{
+    font-weight: bold;
+}
+
+.line-xs{
+    width: 100px;
+    background-color: #F29205;
+    height: 1px;
+    border-radius: 3px;
+}
+
+.title-gray{
+    color: #999999;
+}
+
+section{
+    margin-top: 150px;
+}
+
+li{
+    list-style: none;
+}
+
+.bd-right-md{
+    border-right: 1px solid #999999;
+}
+
+
+
+@media(max-width : 576px){
+    .bd-right-md{
+        border-right: none;
+        margin-bottom: 20px;
+
+    }
+    .bd-top-xs{
+        border-top: 1px solid #999999;
+        margin: 20px;
+        padding-top: 20px;
+    }
+}
+
+/* --------------------------- button ---------------------------------------- */
+
+.change-user-name .button {
+    border: 2px solid #F29205 !important;
+    padding: 10px 50px !important;
+    background-color: #FFFFFF !important;
+    color: #F29205 !important;
+    font-weight: 700;
+    width: 270px;
+
+}
+
+
+.change-user-name .button:hover {
+    border: 2px solid #F29205 !important;
+    padding: 10px 50px !important;
+    color: #FFFFFF !important;
+    background-color: #F29205 !important;
+}
+
+.change-user-name .btn-outline-dark{
+    border: 2px solid #E5E5E5 !important;
+    padding: 10px 50px !important;
+    background-color: #FFFFFF !important;
+    color: #E5E5E5 !important;
+    font-weight: 700;
+    width: 270px;
+
+}
+
+
+/* --------------------------- Banner ----------------------------------------- */
+
+.banner{
+    position: relative;
+}
+
+.background-banner{
+    width: 100%;
+    height: 300px;
+}
+
+@media (max-width : 1000px){
+    .background-banner{
+        width: 100%;
+        height: 150px;
+    }
+}
+
+.banner-title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    font-weight: bold;
+    color: #F5F5F5;
+}
+
+
+/* --------------------------------- CONTENT --------------------------- */
+
+
+
+/* ---------------------- user-name-form -----------------------------*/
+
+.change-user-name .box-form-change .user-name-form {
+    padding-top : 100px; ;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+
+.change-user-name .box-form-change .user-name-form input{
+    margin-top: 40px;
+}

@@ -1,0 +1,228 @@
+*,html{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    padding-bottom: 200px;
+}
+
+@media (max-width : 1000px){
+    html{
+        font-size: 11px;
+    }}
+
+ 
+
+.section-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.title-md{
+    color: #F29205;
+    font-weight: 700;
+}
+
+.title-xs{
+    font-size: 1rem;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.title-bold{
+    font-weight: bold;
+}
+
+.line-xs{
+    width: 100px;
+    background-color: #F29205;
+    height: 1px;
+    border-radius: 3px;
+}
+
+.title-gray{
+    color: #999999;
+}
+
+section{
+    margin-top: 150px;
+}
+
+li{
+    list-style: none;
+}
+
+.bd-right-md{
+    border-right: 1px solid #999999;
+}
+
+
+
+@media(max-width : 576px){
+    .bd-right-md{
+        border-right: none;
+        margin-bottom: 20px;
+
+    }
+    .bd-top-xs{
+        border-top: 1px solid #999999;
+        margin: 20px;
+        padding-top: 20px;
+    }
+}
+
+
+/* --------------------------- button ---------------------------------------- */
+
+.btn-outline-primary {
+    border: 2px solid #F29205 !important;
+    padding: 10px 50px !important;
+    background-color: #FFFFFF !important;
+    color: #F29205 !important;
+    font-weight: 700;
+    width: 270px;
+
+}
+
+
+.btn-outline-primary:hover {
+    color: #FFFFFF !important;
+    background-color: #F29205 !important;
+}
+
+.btn-outline-dark{
+    border: 2px solid #AAAAAA !important;
+    padding: 10px 50px !important;
+    background-color: #FFFFFF !important;
+    color: #999999 !important;
+    font-weight: 700;
+    width: 270px;
+}
+
+.btn-outline-dark:hover{
+    background-color: #AAAAAA !important;
+    color: #FFFFFF !important;
+}
+
+
+/* --------------------------- Banner ----------------------------------------- */
+
+.banner{
+    position: relative;
+}
+
+.background-banner{
+    width: 100%;
+    height: 300px;
+}
+
+@media (max-width : 1000px){
+    .background-banner{
+        width: 100%;
+        height: 150px;
+    }
+}
+
+.banner-title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    font-weight: bold;
+    color: #F5F5F5;
+}
+
+
+/* --------------------------------- CONTENT --------------------------- */
+
+/* --------------------------------- manage order ---------------------------*/
+
+.manage-order .manage-list{
+    margin-top: 100px;
+    padding: 0;
+}
+
+.manage-order .manage-item{
+    background-color: #F5F5F5;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* --------------------------------- order item ---------------------------*/
+
+.manage-order .order-task{
+    margin-top: 100px;
+    padding:0 100px;
+}
+
+@media (max-width:976px){
+    .manage-order .order-task{
+        padding:0 20px;
+    }
+}
+
+.manage-order .form-change-item{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.manage-order .form-change-item a{
+    color: #000;
+    font-size: 1rem;
+}
+
+.manage-order .form-change-item .btn{
+    margin-top: 100px;
+}
+
+.manage-order .form-change-item a:hover{
+    text-decoration: none;
+}
+
+.manage-order .form-change-item{
+    margin-top: 50px;
+}
+
+
+.manage-order .message-order{
+    position: relative;
+    width: 100%;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+
+}
+
+
+.manage-order .message-order .container-text{
+    width: 100%;
+    max-width: 800px;
+    margin-top: 50px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.manage-order .message-order .container-text a{
+    color: black;
+}
+
+.manage-order .container-button{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}

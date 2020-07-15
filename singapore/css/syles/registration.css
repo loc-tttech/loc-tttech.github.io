@@ -145,23 +145,19 @@ body{
     background-color: #F29205 !important;
 }
 
-.registration .btn-outline-dark{
-    border: 2px solid #E5E5E5 !important;
+.btn-outline-dark{
+    border: 2px solid #AAAAAA !important;
     padding: 10px 50px !important;
     background-color: #FFFFFF !important;
-    color: #E5E5E5 !important;
+    color: #999999 !important;
     font-weight: 700;
     width: 270px;
-
 }
 
-.registration .btn-outline-dark:hover {
-    border: 2px solid #E5E5E5 !important;
-    padding: 10px 50px !important;
+.btn-outline-dark:hover{
+    background-color: #AAAAAA !important;
     color: #FFFFFF !important;
-    background-color: #E5E5E5 !important;
 }
-
 
 .section-title{
     font-size: 2.5rem;
@@ -281,7 +277,7 @@ li{
     width: 100%;
     background-color: #F5F5F5;
     padding: 100px 10px;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-top: 50px;
     position: relative;
 }
