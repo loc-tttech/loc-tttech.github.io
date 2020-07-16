@@ -1,0 +1,30 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color: $color-grey;
+}
+
+ 
+
+.section-title{
+    font-size: 2rem;
+    line-height: 50px;
+}
+
+.title-md{
+    color: $color-primary;
+    font-weight: 600;
+}
+
+.title-xs{
+    font-size: 1rem;
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.title-bold{
+    font-weight: bold;
+}
