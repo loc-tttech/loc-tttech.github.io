@@ -169,6 +169,49 @@
             background-image: linear-gradient(#ffffff,#aaaaaa);
         }
     }
+    .heading {
+        position: relative;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 5rem;
+        &:after {
+            position: absolute;
+            content: "";
+            height: 0.1rem;
+            width: 4rem;
+            border-top: 0.1rem solid #f29205;
+            left: 50%;
+            top: 70%;
+            transform: translateX(-50%);
+        }
+    }
+    .table__price{
+        p{
+            margin-top: 2rem;
+            font-weight: bold;
+        }
+        table{
+            width: 100%;
+            tr{
+                border-top: 0.2rem #FFFFFF solid;
+                border-bottom: 0.2rem #FFFFFF solid;
+            }
+            th,td{
+                padding: 1rem;
+                background-color: #F5F5F5;
+            }
+            th{
+                background-color: #F29205;
+                color: #FFFFFF;
+                width: 30%;
+            }
+            .td--yellow{
+                color: #F29205;
+                font-weight: bold;
+            }
+        }
+    }
     .reviews__result{
         padding: 5rem 0;
         background-color: #FCFCF0;
@@ -231,6 +274,24 @@
                 }
             }
         }
+    }
+    .table__info{
+        table{
+            width: 100%;
+            tr{
+                border-top: 0.2rem #E5E5E5 solid;
+                border-bottom: 0.2rem #E5E5E5 solid;
+            }
+            th,td{
+                padding: 1rem;
+            }
+            th{
+                width: 30%;
+            }
+        }
+    }
+    .store__mb--10{
+        margin-bottom: 10rem;
     }
 }
 @media (max-width: 768px){

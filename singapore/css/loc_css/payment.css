@@ -1,0 +1,82 @@
+.payment .form__title {
+  text-align: center;
+  padding: 5rem;
+}
+
+.payment .form__title h3 {
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.payment .payment--left {
+  background-color: #F5F5F5;
+  height: 100%;
+  padding: 3rem;
+}
+
+.payment .payment--right .form__input {
+  padding: 1rem 0;
+}
+
+.payment .payment--right .form__input input {
+  width: 100%;
+  border: 0.1rem #AAAAAA solid;
+  border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+.payment .payment--right .form__select {
+  position: relative;
+}
+
+.payment .payment--right .form__select i {
+  position: absolute;
+  right: 2rem;
+  top: 40%;
+  color: #F29205;
+  pointer-events: none;
+}
+
+.payment .payment--right .form__select select {
+  width: 100%;
+  border: 0.1rem #AAAAAA solid;
+  border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+.payment .button__group {
+  padding: 5rem 0;
+}
+
+.payment .button__group button {
+  border: 0.1rem #AAAAAA solid;
+  color: #AAAAAA;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.payment .button__group .active, .payment .button__group button:active {
+  border: 0.1rem #F29205 solid;
+  color: #F29205;
+}
+/*# sourceMappingURL=payment.css.map */

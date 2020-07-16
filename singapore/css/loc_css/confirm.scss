@@ -1,0 +1,88 @@
+.confirm{
+    .form__title{
+        text-align: center;
+        padding: 5rem;
+        h3{
+            font-weight: bold;
+            padding-bottom: 2rem;
+        }
+    }
+    .box--left{
+        border: 0.1rem #E5E5E5 solid;
+        padding: 5rem 5rem 0 5rem;
+        .row{
+            padding-bottom: 5rem;
+            .box__label{
+                padding: 1rem;
+                font-weight: bold;
+                span{
+                    padding: 0.5rem 1rem;
+                    background-color: #D95454;
+                    color: #ffffff;
+                    margin-right: 1rem;
+                    border-radius: 0.5rem;
+                    -moz-border-radius: 0.5rem;
+                    -webkit-border-radius: 0.5rem;
+                    -ms-border-radius: 0.5rem;
+                    -o-border-radius: 0.5rem;
+                }
+            }
+            .box__content{
+                div{
+                    width: 100%;
+                    padding: 0.5rem;
+                }
+            }
+        }
+        
+    }
+    .box--right{
+        background-color: #F5F5F5;
+        padding: 2rem;
+        height: max-content;
+        .right__price{
+            h3{
+                color: #F29205;
+                display: inline;
+                font-weight: bolder;
+            }
+            padding: 3rem 0;
+        }
+        .right__count{
+            .right__count--border{
+                border-top: 0.1rem #CCCCCC solid;
+                border-bottom: 0.1rem #CCCCCC solid;
+                padding: 1rem 0;
+                margin: 1rem 0;
+                span{
+                    float: right;
+                }
+            }
+            .right__count--total{
+                text-align: right;
+                font-weight: bolder;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    .button__group{
+        padding: 5rem 0;
+        button{
+            border: 0.1rem #AAAAAA solid;
+            color: #AAAAAA;
+            padding: 1rem;
+            background-color: #ffffff;
+            border-radius: 0.5rem;
+            -moz-border-radius: 0.5rem;
+            -webkit-border-radius: 0.5rem;
+            -ms-border-radius: 0.5rem;
+            -o-border-radius: 0.5rem;
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+        .active, button:active{
+            border: 0.1rem #F29205 solid;
+            color: #F29205;
+        }
+    }
+}

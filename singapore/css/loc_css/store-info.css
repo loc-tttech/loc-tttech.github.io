@@ -191,6 +191,56 @@
   background-image: linear-gradient(#ffffff, #aaaaaa);
 }
 
+.store__info .heading {
+  position: relative;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 5rem;
+}
+
+.store__info .heading:after {
+  position: absolute;
+  content: "";
+  height: 0.1rem;
+  width: 4rem;
+  border-top: 0.1rem solid #f29205;
+  left: 50%;
+  top: 70%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.store__info .table__price p {
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.store__info .table__price table {
+  width: 100%;
+}
+
+.store__info .table__price table tr {
+  border-top: 0.2rem #FFFFFF solid;
+  border-bottom: 0.2rem #FFFFFF solid;
+}
+
+.store__info .table__price table th, .store__info .table__price table td {
+  padding: 1rem;
+  background-color: #F5F5F5;
+}
+
+.store__info .table__price table th {
+  background-color: #F29205;
+  color: #FFFFFF;
+  width: 30%;
+}
+
+.store__info .table__price table .td--yellow {
+  color: #F29205;
+  font-weight: bold;
+}
+
 .store__info .reviews__result {
   padding: 5rem 0;
   background-color: #FCFCF0;
@@ -258,6 +308,27 @@
 .store__info .reviews__result .content .reviews__button button:active {
   background-color: #F29205;
   color: #FFFFFF;
+}
+
+.store__info .table__info table {
+  width: 100%;
+}
+
+.store__info .table__info table tr {
+  border-top: 0.2rem #E5E5E5 solid;
+  border-bottom: 0.2rem #E5E5E5 solid;
+}
+
+.store__info .table__info table th, .store__info .table__info table td {
+  padding: 1rem;
+}
+
+.store__info .table__info table th {
+  width: 30%;
+}
+
+.store__info .store__mb--10 {
+  margin-bottom: 10rem;
 }
 
 @media (max-width: 768px) {

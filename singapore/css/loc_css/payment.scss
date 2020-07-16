@@ -1,0 +1,76 @@
+.payment{
+    .form__title{
+        text-align: center;
+        padding: 5rem;
+        h3{
+            font-weight: bold;
+            padding-bottom: 2rem;
+        }
+    }
+    .payment--left{
+        background-color: #F5F5F5;
+        height: 100%;
+        padding: 3rem;
+    }
+    .payment--right{
+        .form__input{
+            padding: 1rem 0;
+            input{
+                width: 100%;
+                border: 0.1rem #AAAAAA solid;
+                border-radius: 0.5rem;
+                -moz-border-radius: 0.5rem;
+                -webkit-border-radius: 0.5rem;
+                -ms-border-radius: 0.5rem;
+                -o-border-radius: 0.5rem;
+                padding: 1rem 2rem;
+            }
+        }
+        .form__select{
+            position: relative;
+            i{
+                position: absolute;
+                right: 2rem;
+                top: 40%;
+                color: #F29205;
+                pointer-events: none;
+            }
+            select{
+                width: 100%;
+                border: 0.1rem #AAAAAA solid;
+                border-radius: 0.5rem;
+                -moz-border-radius: 0.5rem;
+                -webkit-border-radius: 0.5rem;
+                -ms-border-radius: 0.5rem;
+                -o-border-radius: 0.5rem;
+                padding: 1rem 2rem;
+                // clear and add
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                -ms-word-break: normal;
+                word-break: normal;
+            }
+        }
+    }
+    .button__group{
+        padding: 5rem 0;
+        button{
+            border: 0.1rem #AAAAAA solid;
+            color: #AAAAAA;
+            padding: 1rem;
+            background-color: #ffffff;
+            border-radius: 0.5rem;
+            -moz-border-radius: 0.5rem;
+            -webkit-border-radius: 0.5rem;
+            -ms-border-radius: 0.5rem;
+            -o-border-radius: 0.5rem;
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+        .active, button:active{
+            border: 0.1rem #F29205 solid;
+            color: #F29205;
+        }
+    }
+}

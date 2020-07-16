@@ -1,0 +1,133 @@
+@charset "UTF-8";
+.evaluate .form__title {
+  text-align: center;
+  padding: 10rem 0 5rem 0;
+}
+
+.evaluate .form__title h3 {
+  font-weight: bolder;
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.evaluate .form__content .form__label {
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.evaluate .form__content .form__label span {
+  padding: 0.5rem 1rem;
+  background-color: #D95454;
+  color: #ffffff;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.evaluate .form__content .form__label label {
+  margin-left: 5rem;
+}
+
+.evaluate .form__content .form__input input, .evaluate .form__content .form__input textarea {
+  width: 100%;
+  border: 0.1rem #AAAAAA solid;
+  border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+.evaluate .form__content .rating {
+  float: left;
+}
+
+.evaluate .form__content .rating input:checked ~ label {
+  color: #F29205;
+}
+
+.evaluate .form__content .rating input:checked + label:hover,
+.evaluate .form__content .rating input:checked + label:hover ~ label,
+.evaluate .form__content .rating input:checked ~ label:hover,
+.evaluate .form__content .rating input:checked ~ label:hover ~ label,
+.evaluate .form__content .rating label:hover ~ input:checked ~ label {
+  color: #F29205;
+}
+
+.evaluate .form__content .rating label:active {
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.evaluate .form__content .rating:not(:checked) input {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+.evaluate .form__content .rating:not(:checked) label {
+  float: right;
+  width: 1em;
+  padding: 0 .1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 200%;
+  line-height: 1.2;
+  color: #ddd;
+}
+
+.evaluate .form__content .rating:not(:checked) label:before {
+  content: '☆ ';
+}
+
+.evaluate .form__content .rating:not(:checked) label:hover,
+.evaluate .form__content .rating:not(:checked) label:hover ~ label {
+  color: #F29205;
+}
+
+.evaluate .form__rate {
+  color: #F29205;
+}
+
+.evaluate .form__content--box {
+  border: 0.1rem #E5E5E5 solid;
+  padding: 5rem;
+}
+
+.evaluate .button__group {
+  padding: 5rem 0;
+}
+
+.evaluate .button__group button {
+  border: 0.1rem #AAAAAA solid;
+  color: #AAAAAA;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.evaluate .button__group .active, .evaluate .button__group button:active {
+  border: 0.1rem #F29205 solid;
+  color: #F29205;
+}
+
+@media (max-width: 768px) {
+  .evaluate .form__content .form__label label {
+    margin: 0;
+  }
+  .evaluate .form__content--box {
+    padding: 2rem;
+  }
+}
+/*# sourceMappingURL=evaluate.css.map */
