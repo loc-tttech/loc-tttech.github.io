@@ -1,268 +1,283 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chi tiết bài viết</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" type="text/css" href="https://loc-tttech.github.io/web-dantoc/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="https://loc-tttech.github.io/web-dantoc/slick/slick-theme.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://loc-tttech.github.io/web-dantoc/css/style.css" />
-    <link rel="stylesheet" href="css/fix.css">
-    
-  </head>
 
-  <body>
-    <div class="wrapper">
-      <header class="container d-flex align-items-center">
-        <div class="row d-flex">
-          <div class="col-12 col-md-6">
-            <div class="logo"><img src="https://loc-tttech.github.io/web-dantoc/assets/logo.PNG" alt="" /></div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="row">
-              <div class="search col-10 col-md-5">
-                <input type="text" placeholder="Tìm kiếm..." />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chi tiết bài viết</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="https://loc-tttech.github.io/web-dantoc/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="https://loc-tttech.github.io/web-dantoc/slick/slick-theme.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://loc-tttech.github.io/web-dantoc/css/style.css" />
+  <link rel="stylesheet" href="css/fix.css">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="container d-flex align-items-center">
+      <div class="row d-flex">
+        <div class="col-12 col-md-6">
+          <div class="logo"><img src="https://loc-tttech.github.io/web-dantoc/assets/logo.PNG" alt="" /></div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="row">
+            <div class="search col-10 col-md-5">
+              <input type="text" placeholder="Tìm kiếm..." />
+            </div>
+            <div class="lang lang--desktop col-4 col-md-7">
+              <div class="lang__item">Tiếng Việt</div>
+              <div class="lang__item lang__item--blue">English</div>
+            </div>
+            <div class="lang lang--mobile col-2 col-md-7">
+              <div class="lang__item">
+                <img src="https://loc-tttech.github.io/web-dantoc/assets/vietnamese.png" alt="" />
               </div>
-              <div class="lang lang--desktop col-4 col-md-7">
-                <div class="lang__item">Tiếng Việt</div>
-                <div class="lang__item lang__item--blue">English</div>
-              </div>
-              <div class="lang lang--mobile col-2 col-md-7">
-                <div class="lang__item">
-                  <img src="https://loc-tttech.github.io/web-dantoc/assets/vietnamese.png" alt="" />
-                </div>
-                <div class="lang__item">
-                  <img src="https://loc-tttech.github.io/web-dantoc/assets/english.png" alt="" />
-                </div>
+              <div class="lang__item">
+                <img src="https://loc-tttech.github.io/web-dantoc/assets/english.png" alt="" />
               </div>
             </div>
           </div>
         </div>
-      </header>
-
-      <nav class="container">
-        <div class="nav__img">
-          <img src="https://loc-tttech.github.io/web-dantoc/assets/banner.PNG" alt="" />
-        </div>
-        <ul class="nav__menu nav__menu--desktop">
-            <li class="nav__menu__item"><a href="index.html">Trang chủ</a></li>
-            <li class="nav__menu__item">Giới thiệu</li>
-            <li class="nav__menu__item"><a href="danhmuc.html">Tin tức</a></li>
-            <li class="nav__menu__item"><a href="danhmuc.html">Hoạt động của đồng bào</a></li>
-            <li class="nav__menu__item"><a href="danhmuc.html">Xúc tiến đầu tư</a></li>
-            <li class="nav__menu__item"><a href="danhmuc.html">Thông tin du lịch</a></li>
-            <li class="nav__menu__item">Video</li>
-            <li class="nav__menu__item">Hình ảnh</li>
-            <li class="nav__menu__item"><a href="lienhe.html">Liên hệ</a></li>
-            <li class="nav__menu__item">Văn hóa việt</li>
-          </ul>
-        <div class="nav__menu nav__menu--mobile">
-          <div class="nav__menu__burger">
-            <img src="https://loc-tttech.github.io/web-dantoc/assets/burger.png" alt="" />
-          </div>
-          <ul class="nav__menu__mobile">
-            <li class="nav__menu__item">Trang chủ</li>
-            <li class="nav__menu__item">Giới thiệu</li>
-            <li class="nav__menu__item">Tin tức</li>
-            <li class="nav__menu__item">Hoạt động của đồng bào</li>
-            <li class="nav__menu__item">Xúc tiến đầu tư</li>
-            <li class="nav__menu__item">Thông tin du lịch</li>
-            <li class="nav__menu__item">Video</li>
-            <li class="nav__menu__item">Hình ảnh</li>
-            <li class="nav__menu__item">Liên hệ</li>
-            <li class="nav__menu__item">Văn hóa việt</li>
-          </ul>
-        </div>
-      </nav>
-
-      <div class="container">
-          <div class="row">
-              <div class="col-sm-6">
-                  <div>
-                      <img src="http://theme196.kswebvn.com/userdata/6187/wp-content/uploads/2018/12/hateco-apollo-giao-dich-1-600x338.jpg" alt="" style="width: 100%;">
-                  </div>
-                  <div class="content-hot-new">
-                      <h5><a href="">Dự án Hateco Apollo – không ngừng “tăng nhiệt” kể từ ngày ra mắt</a></h5><br>
-                      <p>
-                        Dự án “hot” nhất BĐS phía Tây Hà Nội Trong vài năm trở lại đây, thị trường BĐS phía Tây Thủ đô trở nên sôi động hơn bao giờ hết với sự xuất hiện của nhiều dự án “hot”. Nhưng có thể “làm mưa làm gió” thì chắc hiếm dự án nào so được với Hateco Apollo...
-                      </p>
-                  </div>
-              </div>
-              <div class="col-sm-6">
-                  <div class="row">
-                      <div class="col-sm-6">
-                            <div class="wraper-hot-new">
-                                <div>
-                                    <h5><a href="chitiet.html">Tưng bừng sự kiện tri ân và mở bán dự án Hateco Apollo</a></h5>
-                                    <hr>
-                                </div>
-                                <div>
-                                    <h5><a href="chitiet.html">Tưng bừng sự kiện tri ân và mở bán dự án Hateco Apollo</a></h5>
-                                    <hr>
-                                </div>
-                                <div>
-                                    <h5><a href="chitiet.html">Tưng bừng sự kiện tri ân và mở bán dự án Hateco Apollo</a></h5>
-                                    <hr>
-                                </div>
-                                <div>
-                                    <h5><a href="chitiet.html">Tưng bừng sự kiện tri ân và mở bán dự án Hateco Apollo</a></h5>
-                                    <hr>
-                                </div>
-                                <div>
-                                    <h5><a href="chitiet.html">Tưng bừng sự kiện tri ân và mở bán dự án Hateco Apollo</a></h5>
-                                    <hr>
-                                </div>
-                            </div>
-                      </div>
-                      <div class="col-sm-6">
-                        <div class="row">
-                            <img src="https://imgt.taimienphi.vn/cf/Images/vi/2017/11/28/kich-thuoc-banner-quang-cao-chuan.jpg" alt="" style="width: 100%;">
-                        </div>
-                        <br>
-                        <div class="row">
-                            <img src="https://imgt.taimienphi.vn/cf/Images/vi/2017/11/28/kich-thuoc-banner-quang-cao-chuan.jpg" alt="" style="width: 100%;">
-                        </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <hr>
-          <div class="row tree">
-              <a href="">Trang chủ </a> |<a href="">Pháp luật </a> | Chi tiết
-          </div>
-          <hr>
-          <div class="row">
-              <div class="title-detail">
-                  <h5><b>Dự án Hateco Apollo – không ngừng “tăng nhiệt” kể từ ngày ra mắt</b></h5>
-              </div>
-              <div class="content">                
-                Nằm khu vực phát triển năng động nhất của thành phố, nơi tập trung nhiều trụ sở cơ quan hành chính bộ, ngành; các tập đoàn nước ngoài; các trường đại học… khu vực phía Tây sở hữu tiềm năng cho thuê cực lớn, mang lại nguồn thu hấp dẫn và ổn định cho nhà đầu tư.
-                Trong vài năm trở lại đây, thị trường BĐS phía Tây Thủ đô trở nên sôi động hơn bao giờ hết với sự xuất hiện của nhiều dự án “hot”. Nhưng có thể “làm mưa làm gió” thì chắc hiếm dự án nào so được với Hateco Apollo. Từ thời điểm ra mắt tòa đầu tiên CT1A, 80% căn hộ đã có chủ ngay trong phiên giao dịch đợt 1. Tính đến hiện tại, gần như 100% căn hộ tại tòa CT1A và CT1B của dự án đã được giao dịch thành công, chỉ còn lại số lượng không nhiều các căn hộ tại tòa CT2 – tòa cuối cùng.
-                <br>
-                <br>
-                <img src="http://theme196.kswebvn.com/userdata/6187/wp-content/uploads/2018/12/hateco-apollo-giao-dich.jpg" style="width: 100%;" alt="">
-                <br>
-                <br>
-                Các buổi mở bán luôn thu hút đông đảo khách hàng quan tâm
-
-                Nằm trong phân khúc BĐS tầm trung nhưng Hateco Apollo lại sở hữu vị trí đắc địa với những ưu thế về giao thông và liên kết vùng khi nằm ngay chân cầu Tasco, khu vực giao thoa của quận Nam Từ Liêm, Bắc Từ Liêm và Mỹ Đình. Nhờ hệ thống giao thông được quy hoạch đồng bộ như tuyến đường 70 đang được triển khai, đường Trần Hữu Dực đến đường 70 đi qua các khu đô thị Mỹ Đình 1, 2 rộng 50 m, gồm 8 làn xe chạy đã đi vào hoạt động, tuyến đường sắt Nhổn – ga Hà Nội đang thi công và sẽ sớm đưa vào sử dụng, những cư dân tương lai của Hateco Apollo có thể dễ dàng và nhanh chóng di chuyển tới các quận Trung tâm Thành phố cũng như các tỉnh thành lân cận.
-
-                Bên cạnh đó, nhiều khách hàng còn bị chinh phục bởi không gian sống ngập tràn hơi thở thiên nhiên cùng thiết kế hiện đại của dự án. Hateco Apollo ghi điểm nhờ thiết kế kiến trúc xanh độc đáo với mật độ xây dựng thấp chỉ 35,3%. Chủ đầu tư dành hơn 60% diện tích của khu đất cho cảnh quan và cây xanh cùng hồ điều hòa rộng hơn 3000m2 mang đến không gian sống an lành, gần gũi với thiên
-                <br>
-                <br>
-                <img src="http://theme196.kswebvn.com/userdata/6187/wp-content/uploads/2018/12/hateco-apollo-giao-dich-1.jpg" style="width: 100%;" alt="">
-                <br>
-                <br>
-                Nằm trong phân khúc BĐS tầm trung nhưng Hateco Apollo lại sở hữu vị trí đắc địa với những ưu thế về giao thông và liên kết vùng khi nằm ngay chân cầu Tasco, khu vực giao thoa của quận Nam Từ Liêm, Bắc Từ Liêm và Mỹ Đình. Nhờ hệ thống giao thông được quy hoạch đồng bộ như tuyến đường 70 đang được triển khai, đường Trần Hữu Dực đến đường 70 đi qua các khu đô thị Mỹ Đình 1, 2 rộng 50 m, gồm 8 làn xe chạy đã đi vào hoạt động, tuyến đường sắt Nhổn – ga Hà Nội đang thi công và sẽ sớm đưa vào sử dụng, những cư dân tương lai của Hateco Apollo có thể dễ dàng và nhanh chóng di chuyển tới các quận Trung tâm Thành phố cũng như các tỉnh thành lân cận.
-
-                Bên cạnh đó, nhiều khách hàng còn bị chinh phục bởi không gian sống ngập tràn hơi thở thiên nhiên cùng thiết kế hiện đại của dự án. Hateco Apollo ghi điểm nhờ thiết kế kiến trúc xanh độc đáo với mật độ xây dựng thấp chỉ 35,3%. Chủ đầu tư dành hơn 60% diện tích của khu đất cho cảnh quan và cây xanh cùng hồ điều hòa rộng hơn 3000m2 mang đến không gian sống an lành, gần gũi với thiên
-                <br>
-                <br>
-                <br>
-                <br>
-              </div>
-          </div>
       </div>
+    </header>
 
-      <footer class="container">
-        <div class="nav">
-          <ul class="menu">
-            <li>Hướng dẫn đường đi từ Hà Nội</li>
-            <li>Hướng dẫn đặt vé online</li>
-            <li>Giá vé</li>
-            <li>Thông tin dịch vụ</li>
-          </ul>
+    <nav class="container">
+      <div class="nav__img">
+        <img src="https://loc-tttech.github.io/web-dantoc/assets/banner.PNG" alt="" />
+      </div>
+      <ul class="nav__menu nav__menu--desktop">
+        <li class="nav__menu__item"><a href="index.html">Trang chủ</a></li>
+        <li class="nav__menu__item"><a href="gioithieu.html">Giới thiệu</a></li>
+        <li class="nav__menu__item"><a href="danhmuc.html">Tin tức</a></li>
+        <li class="nav__menu__item"><a href="danhmuc.html">Hoạt động của đồng bào</a></li>
+        <li class="nav__menu__item"><a href="danhmuc.html">Xúc tiến đầu tư</a></li>
+        <li class="nav__menu__item"><a href="danhmuc.html">Thông tin du lịch</a></li>
+        <li class="nav__menu__item"><a href="gallery.html">Video</a> </li>
+        <li class="nav__menu__item"><a href="gallery.html">Hình ảnh</a></li>
+        <li class="nav__menu__item"><a href="lienhe.html">Liên hệ</a></li>
+        <li class="nav__menu__item">Văn hóa việt</li>
+      </ul>
+      <div class="nav__menu nav__menu--mobile">
+        <div class="nav__menu__burger">
+          <img src="https://loc-tttech.github.io/web-dantoc/assets/burger.png" alt="" />
         </div>
-        <div class="content row">
-          <div class="col-6 col-md-3">
-            <div class="heading">
-              Giới thiệu
-            </div>
-            <div class="details">
-              <div class="item">Quá trình hình thành và phát triển</div>
-              <div class="item">Báo chí viết về chúng tôi</div>
-              <div class="item">Các khu du lịch lân cận</div>
-              <div class="item">Ẩm thực tại Làng</div>
-            </div>
+        <ul class="nav__menu__mobile">
+          <li class="nav__menu__item">Trang chủ</li>
+          <li class="nav__menu__item">Giới thiệu</li>
+          <li class="nav__menu__item">Tin tức</li>
+          <li class="nav__menu__item">Hoạt động của đồng bào</li>
+          <li class="nav__menu__item">Xúc tiến đầu tư</li>
+          <li class="nav__menu__item">Thông tin du lịch</li>
+          <li class="nav__menu__item">Video</li>
+          <li class="nav__menu__item">Hình ảnh</li>
+          <li class="nav__menu__item">Liên hệ</li>
+          <li class="nav__menu__item">Văn hóa việt</li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div>
+            <img
+              src="http://theme196.kswebvn.com/userdata/6187/wp-content/uploads/2018/12/hateco-apollo-giao-dich-1-600x338.jpg"
+              alt="" style="width: 100%;">
           </div>
-          <div class="col-6 col-md-3">
-            <div class="heading">
-              Đường đến Làng Văn hóa
-            </div>
-            <div class="details">
-              <div class="item">Đi từ Hà Nội</div>
-              <div class="item">Bản đồ Làng Văn hóa</div>
-              <div class="item">Các khu du lịch lân cận</div>
-            </div>
-          </div>
-          <div class="col-6 col-md-3">
-            <div class="heading">
-              Kế hoạch hoạt động tại Làng
-            </div>
-            <div class="details">
-              <div class="item row">
-                <div class="col-3"><img src="https://loc-tttech.github.io/web-dantoc/assets/footer.PNG" alt="" /></div>
-                <div class="col-9">Kế hoạch cuối tháng Hai</div>
-              </div>
-              <div class="item row">
-                <div class="col-3"><img src="https://loc-tttech.github.io/web-dantoc/assets/footer.PNG" alt="" /></div>
-                <div class="col-9">Kế hoạch hàng ngày</div>
-              </div>
-              <div class="item row">
-                <div class="col-3"><img src="https://loc-tttech.github.io/web-dantoc/assets/footer.PNG" alt="" /></div>
-                <div class="col-9">Hoạt động tháng Ba</div>
-              </div>
-              <div class="item row">
-                <div class="col-3"><img src="https://loc-tttech.github.io/web-dantoc/assets/footer.PNG" alt="" /></div>
-                <div class="col-9">Ngày VHCDT Việt Nam</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-3">
-            <div class="heading">
-              Video
-            </div>
-            <div class="details">
-              <img src="https://loc-tttech.github.io/web-dantoc/assets/promo.PNG" alt="" />
-            </div>
+          <div class="content-hot-new">
+            <h5><a href="">Dự án Hateco Apollo – không ngừng “tăng nhiệt” kể từ ngày ra mắt</a></h5><br>
+            <p>
+              Dự án “hot” nhất BĐS phía Tây Hà Nội Trong vài năm trở lại đây, thị trường BĐS phía Tây Thủ đô trở nên sôi
+              động hơn bao giờ hết với sự xuất hiện của nhiều dự án “hot”. Nhưng có thể “làm mưa làm gió” thì chắc hiếm
+              dự án nào so được với Hateco Apollo...
+            </p>
           </div>
         </div>
-      </footer>
+        <div class="col-sm-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="wraper-hot-new">
+                <div>
+                  <h5><a href="chitiet.html">Tưng bừng sự kiện tri ân và mở bán dự án Hateco Apollo</a></h5>
+                  <hr>
+                </div>
+                <div>
+                  <h5><a href="chitiet.html">Tưng bừng sự kiện tri ân và mở bán dự án Hateco Apollo</a></h5>
+                  <hr>
+                </div>
+                <div>
+                  <h5><a href="chitiet.html">Tưng bừng sự kiện tri ân và mở bán dự án Hateco Apollo</a></h5>
+                  <hr>
+                </div>
+                <div>
+                  <h5><a href="chitiet.html">Tưng bừng sự kiện tri ân và mở bán dự án Hateco Apollo</a></h5>
+                  <hr>
+                </div>
+                <div>
+                  <h5><a href="chitiet.html">Tưng bừng sự kiện tri ân và mở bán dự án Hateco Apollo</a></h5>
+                  <hr>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="row">
+                <img src="https://imgt.taimienphi.vn/cf/Images/vi/2017/11/28/kich-thuoc-banner-quang-cao-chuan.jpg"
+                  alt="" style="width: 100%;">
+              </div>
+              <br>
+              <div class="row">
+                <img src="https://imgt.taimienphi.vn/cf/Images/vi/2017/11/28/kich-thuoc-banner-quang-cao-chuan.jpg"
+                  alt="" style="width: 100%;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row tree">
+        <a href="">Trang chủ </a> |<a href="">Pháp luật </a> | Chi tiết
+      </div>
+      <hr>
+      <div class="row">
+        <div class="title-detail">
+          <h5><b>Dự án Hateco Apollo – không ngừng “tăng nhiệt” kể từ ngày ra mắt</b></h5>
+        </div>
+        <div class="content">
+          Nằm khu vực phát triển năng động nhất của thành phố, nơi tập trung nhiều trụ sở cơ quan hành chính bộ, ngành;
+          các tập đoàn nước ngoài; các trường đại học… khu vực phía Tây sở hữu tiềm năng cho thuê cực lớn, mang lại
+          nguồn thu hấp dẫn và ổn định cho nhà đầu tư.
+          Trong vài năm trở lại đây, thị trường BĐS phía Tây Thủ đô trở nên sôi động hơn bao giờ hết với sự xuất hiện
+          của nhiều dự án “hot”. Nhưng có thể “làm mưa làm gió” thì chắc hiếm dự án nào so được với Hateco Apollo. Từ
+          thời điểm ra mắt tòa đầu tiên CT1A, 80% căn hộ đã có chủ ngay trong phiên giao dịch đợt 1. Tính đến hiện tại,
+          gần như 100% căn hộ tại tòa CT1A và CT1B của dự án đã được giao dịch thành công, chỉ còn lại số lượng không
+          nhiều các căn hộ tại tòa CT2 – tòa cuối cùng.
+          <br>
+          <br>
+          <img src="http://theme196.kswebvn.com/userdata/6187/wp-content/uploads/2018/12/hateco-apollo-giao-dich.jpg"
+            style="width: 100%;" alt="">
+          <br>
+          <br>
+          Các buổi mở bán luôn thu hút đông đảo khách hàng quan tâm
+
+          Nằm trong phân khúc BĐS tầm trung nhưng Hateco Apollo lại sở hữu vị trí đắc địa với những ưu thế về giao thông
+          và liên kết vùng khi nằm ngay chân cầu Tasco, khu vực giao thoa của quận Nam Từ Liêm, Bắc Từ Liêm và Mỹ Đình.
+          Nhờ hệ thống giao thông được quy hoạch đồng bộ như tuyến đường 70 đang được triển khai, đường Trần Hữu Dực đến
+          đường 70 đi qua các khu đô thị Mỹ Đình 1, 2 rộng 50 m, gồm 8 làn xe chạy đã đi vào hoạt động, tuyến đường sắt
+          Nhổn – ga Hà Nội đang thi công và sẽ sớm đưa vào sử dụng, những cư dân tương lai của Hateco Apollo có thể dễ
+          dàng và nhanh chóng di chuyển tới các quận Trung tâm Thành phố cũng như các tỉnh thành lân cận.
+
+          Bên cạnh đó, nhiều khách hàng còn bị chinh phục bởi không gian sống ngập tràn hơi thở thiên nhiên cùng thiết
+          kế hiện đại của dự án. Hateco Apollo ghi điểm nhờ thiết kế kiến trúc xanh độc đáo với mật độ xây dựng thấp chỉ
+          35,3%. Chủ đầu tư dành hơn 60% diện tích của khu đất cho cảnh quan và cây xanh cùng hồ điều hòa rộng hơn
+          3000m2 mang đến không gian sống an lành, gần gũi với thiên
+          <br>
+          <br>
+          <img src="http://theme196.kswebvn.com/userdata/6187/wp-content/uploads/2018/12/hateco-apollo-giao-dich-1.jpg"
+            style="width: 100%;" alt="">
+          <br>
+          <br>
+          Nằm trong phân khúc BĐS tầm trung nhưng Hateco Apollo lại sở hữu vị trí đắc địa với những ưu thế về giao thông
+          và liên kết vùng khi nằm ngay chân cầu Tasco, khu vực giao thoa của quận Nam Từ Liêm, Bắc Từ Liêm và Mỹ Đình.
+          Nhờ hệ thống giao thông được quy hoạch đồng bộ như tuyến đường 70 đang được triển khai, đường Trần Hữu Dực đến
+          đường 70 đi qua các khu đô thị Mỹ Đình 1, 2 rộng 50 m, gồm 8 làn xe chạy đã đi vào hoạt động, tuyến đường sắt
+          Nhổn – ga Hà Nội đang thi công và sẽ sớm đưa vào sử dụng, những cư dân tương lai của Hateco Apollo có thể dễ
+          dàng và nhanh chóng di chuyển tới các quận Trung tâm Thành phố cũng như các tỉnh thành lân cận.
+
+          Bên cạnh đó, nhiều khách hàng còn bị chinh phục bởi không gian sống ngập tràn hơi thở thiên nhiên cùng thiết
+          kế hiện đại của dự án. Hateco Apollo ghi điểm nhờ thiết kế kiến trúc xanh độc đáo với mật độ xây dựng thấp chỉ
+          35,3%. Chủ đầu tư dành hơn 60% diện tích của khu đất cho cảnh quan và cây xanh cùng hồ điều hòa rộng hơn
+          3000m2 mang đến không gian sống an lành, gần gũi với thiên
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>
+      </div>
     </div>
-    <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery-1.11.0.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $(".single-item").slick({
-          dots: true,
-          autoplay: true,
-          autoplaySpeed: 3000,
-        });
+
+    <footer class="container">
+      <div class="nav">
+        <ul class="menu">
+          <li>Hướng dẫn đường đi từ Hà Nội</li>
+          <li>Hướng dẫn đặt vé online</li>
+          <li>Giá vé</li>
+          <li>Thông tin dịch vụ</li>
+        </ul>
+      </div>
+      <div class="content row">
+        <div class="col-6 col-md-3">
+          <div class="heading">
+            Giới thiệu
+          </div>
+          <div class="details">
+            <div class="item">Quá trình hình thành và phát triển</div>
+            <div class="item">Báo chí viết về chúng tôi</div>
+            <div class="item">Các khu du lịch lân cận</div>
+            <div class="item">Ẩm thực tại Làng</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="heading">
+            Đường đến Làng Văn hóa
+          </div>
+          <div class="details">
+            <div class="item">Đi từ Hà Nội</div>
+            <div class="item">Bản đồ Làng Văn hóa</div>
+            <div class="item">Các khu du lịch lân cận</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="heading">
+            Kế hoạch hoạt động tại Làng
+          </div>
+          <div class="details">
+            <div class="item row">
+              <div class="col-3"><img src="https://loc-tttech.github.io/web-dantoc/assets/footer.PNG" alt="" /></div>
+              <div class="col-9">Kế hoạch cuối tháng Hai</div>
+            </div>
+            <div class="item row">
+              <div class="col-3"><img src="https://loc-tttech.github.io/web-dantoc/assets/footer.PNG" alt="" /></div>
+              <div class="col-9">Kế hoạch hàng ngày</div>
+            </div>
+            <div class="item row">
+              <div class="col-3"><img src="https://loc-tttech.github.io/web-dantoc/assets/footer.PNG" alt="" /></div>
+              <div class="col-9">Hoạt động tháng Ba</div>
+            </div>
+            <div class="item row">
+              <div class="col-3"><img src="https://loc-tttech.github.io/web-dantoc/assets/footer.PNG" alt="" /></div>
+              <div class="col-9">Ngày VHCDT Việt Nam</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="heading">
+            Video
+          </div>
+          <div class="details">
+            <img src="https://loc-tttech.github.io/web-dantoc/assets/promo.PNG" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".single-item").slick({
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
       });
-      $(".nav__menu__burger").click(function () {
-        $(".nav__menu__mobile").toggle();
-      });
-    </script>
-  </body>
+    });
+    $(".nav__menu__burger").click(function () {
+      $(".nav__menu__mobile").toggle();
+    });
+  </script>
+</body>
+
 </html>
