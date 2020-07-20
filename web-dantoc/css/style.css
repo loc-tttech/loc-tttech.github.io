@@ -492,6 +492,12 @@ table {
   padding-bottom: 1rem;
 }
 
+@media only screen and (max-width: 576px) {
+  .wrapper footer .content .heading {
+    text-align: center;
+  }
+}
+
 .wrapper footer .content .details {
   line-height: 1.5rem;
   margin-bottom: 2rem;
