@@ -104,6 +104,13 @@
     text-align: justify;
     padding-bottom: 1rem;
 }
+.gallery-item img{
+    width: 100%;
+}
+.gallery-item .description{
+    text-align: justify;
+    padding: 10px;
+}
 @media screen and (max-width: 480px) {
     .col-sm-6 .row img{
         padding: 10px;
