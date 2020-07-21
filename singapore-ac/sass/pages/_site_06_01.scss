@@ -1,0 +1,27 @@
+.site_06_01{
+    .box__voice{
+        padding: 0.5rem 1rem;
+        margin: 0 auto;
+        width: 40%;
+        border: 0.1rem #E5E5E5 solid;
+        border-radius: 0.5rem;
+        -moz-border-radius: 0.5rem;
+        -webkit-border-radius: 0.5rem;
+        -ms-border-radius: 0.5rem;
+        -o-border-radius: 0.5rem;
+        i{
+            font-size: 1.5rem;
+        }
+        input{
+            min-width: 90%;
+        }
+    }
+}
+@media(max-width: 768px){
+    .site_06_01{
+        margin-top: 2rem;
+        .box__voice{
+            width: 100%;
+        }
+    }
+}

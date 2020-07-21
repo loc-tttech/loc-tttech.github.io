@@ -1,0 +1,28 @@
+@media only screen and (max-width: 576px) {
+    .result__item .img img{
+        width: 80%;
+    }
+    .result__item .img{
+        width: 100%;
+        border-bottom: none;
+    }
+    .result__item .button {
+        float: right !important;
+    }
+    .button__price{
+        float: right;
+        margin-right: 10px;
+    }
+    .result__item {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 0px;
+        margin-bottom: 30px;
+        border: none;
+    }
+    .tab-contents h3 a{
+        padding: 10px 0px;
+        margin: 0px 20px;
+    }
+    
+  }

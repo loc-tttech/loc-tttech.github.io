@@ -1,0 +1,77 @@
+.main-container{
+    width: 100rem;
+    margin: 0 auto;
+    border:1px solid #000;
+    font-family: Hiragino Kaku Gothic ProN;
+}
+.header{
+    text-align: left;
+    font-size: 1.9rem;
+    margin: 1rem;
+    padding-bottom: 7.6rem;
+}
+.header__item{
+    .text__content{
+        padding-left: 1rem;
+        >table tr{
+            .td__left{
+                width: 2rem;
+                text-align: center;
+                margin-left: 1rem;
+            }
+            .td__last{
+                width: 100%;
+                text-align: right;
+            }
+        }   
+        }
+    }
+h3{
+    width: 100%;
+    background-color: #E8E8E8;
+    padding-left: 1rem;
+}
+.content{
+    width: 100%;
+    background-color: #F5F5F5;
+    padding:4rem;
+    .content__text{
+        width: 50%;
+        text-align: center;
+        color: #D32F2F;
+        font-size: 1.1rem;
+        margin-left: 12rem;
+    }
+}
+.content__text{
+    .content__item{
+        padding-left: 1rem;
+        margin: 2rem;
+        >table{
+            margin-left: 2rem;
+            tr{
+                td{
+                    padding-bottom: 1.5rem;
+                    padding-right: 1rem;
+                }
+                .td__stt{
+                    padding-right:1rem;
+                    padding-bottom: 2rem;
+                }
+              
+            }
+        }
+        ul{
+            list-style: none;
+            width: 80%;
+          li{
+              &:first-child{
+                    margin-right: 5rem;
+
+              }
+          }
+           
+        }
+    }
+   
+}

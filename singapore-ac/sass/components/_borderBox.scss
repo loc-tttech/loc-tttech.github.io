@@ -1,0 +1,26 @@
+.sing__borderBox{
+    border: 0.1rem #E5E5E5 solid;
+    border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    padding: 2rem;
+    margin: 2rem 5rem;
+    h3,div{
+        padding-bottom: 2rem;
+    }
+    .row{
+        div{
+            padding-bottom: 1rem;
+        }
+        padding-bottom: 2rem;
+    }
+}
+@media(max-width: 768px){
+    .sing__borderBox{
+        border: none;
+        margin: 2rem 0;
+        padding: 0 0 2rem 0;
+    }
+}

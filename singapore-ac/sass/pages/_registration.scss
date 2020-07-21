@@ -1,0 +1,87 @@
+.registration {
+    .banner{
+        .box-title-banner{
+            position: relative;
+            .title-bold{
+                color: $color-primary;
+            }
+            .multi-step-list{
+                position: absolute;
+                right: 0;
+                top: 30px;
+            }
+        }
+    }
+    // registration 1
+    .content{
+        .form{
+            width: 100%;
+            max-width: 500px;
+            margin: auto;
+            padding-bottom: 30px;
+            text-align: center;
+            .btn-main{
+                margin-top: 30px;
+                margin-bottom: 20px;
+            }
+            .text{
+                letter-spacing: 0px;
+                margin-bottom: 100px;
+            }
+            .btn-line{
+                margin: auto;
+            }
+        }
+    }
+
+    // registration 2
+
+
+    .message-email{
+        width: 100%;
+        background-color: $color-white;
+        padding: 20px;
+        margin: auto;
+        position: relative;
+        border-radius: 5px;
+        width: 700px;
+        border: 1px solid $color-grey-dark-1;
+        .icon-question{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: $color-black;
+            border-radius: 50%;
+            line-height: 20px;
+            p{
+                font-size: 0.9rem;
+                font-weight: bold;
+                color: #FFFFFF;
+            }
+    
+        }
+
+        .container-text a{
+            color: black;
+        }
+    }
+
+    // registration 3
+
+    .form-register-password{
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    // registration 4
+
+    .container-button{
+        width: 100%;
+        max-width: 700px;
+        margin: auto;
+    }
+    
+    
+
+}

@@ -1,0 +1,30 @@
+.sing__tab{
+    width: 100%;
+    border-bottom: 0.1rem #B5B5B5 solid;
+    .tab__button{
+        padding: 0.5rem 1rem;
+        width: 10rem;
+        text-align: center;
+        background-color: #E8E8E8;
+        border-radius: 0.5rem 0.5rem 0 0;
+        -moz-border-radius: 0.5rem 0.5rem 0 0;
+        -webkit-border-radius: 0.5rem 0.5rem 0 0;
+        -ms-border-radius: 0.5rem 0.5rem 0 0;
+        -o-border-radius: 0.5rem 0.5rem 0 0;
+        text-decoration: none;
+        margin-right: 1rem;
+        color: #2277BB;
+    }
+    .tab__button--active,.tab__button:active{
+        border: 0.1rem #B5B5B5 solid;
+        border-bottom: 0.1rem #FFFFFF solid;
+        background-color: #FFFFFF;
+        color: #222222 !important;
+        margin-bottom: -0.1rem;
+    }
+    .tab__button--active:active{
+        border-bottom: 0.1rem #B5B5B5 solid;
+        background-color: #E8E8E8;
+        color: #222222 !important;
+    }
+}

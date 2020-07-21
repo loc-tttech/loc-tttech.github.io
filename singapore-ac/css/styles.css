@@ -1,0 +1,87 @@
+.main-container {
+  width: 100rem;
+  margin: 0 auto;
+  border: 1px solid #000;
+  font-family: Hiragino Kaku Gothic ProN;
+}
+
+.header {
+  text-align: left;
+  font-size: 1.9rem;
+  margin: 1rem;
+  padding-bottom: 7.6rem;
+}
+
+.header__item .text__content {
+  padding-left: 1rem;
+}
+
+.header__item .text__content > table tr .td__left {
+  width: 2rem;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.header__item .text__content > table tr .td__last {
+  width: 100%;
+  text-align: right;
+}
+
+h3 {
+  width: 100%;
+  background-color: #E8E8E8;
+  padding-left: 1rem;
+}
+
+.content {
+  width: 100%;
+  background-color: #F5F5F5;
+  padding: 4rem;
+}
+
+.content .content__text {
+  width: 50%;
+  text-align: center;
+  color: #D32F2F;
+  font-size: 1.1rem;
+  margin-left: 12rem;
+}
+
+.content__text .content__item {
+  padding-left: 1rem;
+  margin: 2rem;
+}
+
+.content__text .content__item > table {
+  margin-left: 2rem;
+}
+
+.content__text .content__item > table tr td {
+  padding-bottom: 1.5rem;
+  padding-right: 1rem;
+}
+
+.content__text .content__item > table tr .td__stt {
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+}
+
+.content__text .content__item ul {
+  list-style: none;
+  width: 80%;
+}
+
+.content__text .content__item ul li:first-child {
+  margin-right: 5rem;
+}
+.head-logo span{
+  margin-top: 10px;
+}
+/*# sourceMappingURL=styles.css.map */
+
+/* menu tab */
+
+
+.nav-home-tab-fix{
+  max-width: 25% !important;
+}

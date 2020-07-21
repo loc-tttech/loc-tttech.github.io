@@ -1,0 +1,39 @@
+.sing__box{
+    .box__title{
+        font-size: 2rem;
+        padding: 2rem 0;
+    }
+    .box__content{
+        text-align: center;
+        padding: 5rem;
+        background-color: #F5F5F5;
+        min-height: 30rem;
+        align-items: center;
+        .paragraph{
+            width: 55%;
+            margin: 0 auto;
+        }
+    }
+    .box__content--red{
+        p{
+            color: #D32F2F;
+        }
+    }
+    .box__content--responsive{
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem;
+        background-color: #F6EFE3;
+        color: #805A2C;
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 768px){
+    .sing__box{
+        .box__content{
+            min-height: 25rem;
+            .paragraph{
+                width: 100%;
+            }
+        }
+    }
+}

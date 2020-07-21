@@ -1,0 +1,25 @@
+$color-primary: #F06F18;  // màu chính
+$color-primary-light:#FDEAD1; // màu chính mờ
+$color-primary-dark:#F8BC6E; // màu chính tối
+
+
+$color-secondary-light: #FDEAD1; //Màu Cam nhạt
+$color-secondary-dark: #F8BC6E; //Màu cam tối
+
+$color-tertiary-light:#55c57a; // Màu xanh lá cây
+$color-tertiary-dark:#28b485;
+
+$color-grey-light-1: #E5E5E5;
+//abstracts/_variables.scss
+$color-grey-dark-1: #DDDDDD;
+
+$color-grey: #777777;
+$color-white: #fff;
+$color-black: #000;
+
+$grid-width: 114rem;
+$gutter-vertical: 8rem;    // margin bottom giữa các row
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;   // giá trị khoảng cách giữa các column
+// abstracts/_variables.scss
+$default-font-size: 1.6rem;

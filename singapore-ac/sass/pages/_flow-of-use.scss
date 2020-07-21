@@ -1,0 +1,51 @@
+
+
+/* --------------------------- section-step ----------------------------------------- */
+
+.flow-of-use{
+    .box-list{
+        margin: 70px 0;
+        .card-item{
+            width: 100%;
+            padding: 50px 0;
+            border-radius: 20px;
+            margin-top: 50px;
+            position: relative;
+            .box-title-step{
+                width: 60px;
+                height: 60px;
+                background-color: $color-primary;
+                border-radius: 50%;
+                position: absolute;
+                text-align: center;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                .box-content{
+                    position: absolute;
+                    line-height: 3px;
+                    top: 60%;
+                    left: 50%;
+                    transform: translateY(-50%) translateX(-50%);
+                    color: $color-white;
+                    .icon-step{
+                        font-size: 0.8rem;
+                    }
+                    .order{
+                        font-size: 1.2rem;
+                    }
+                }
+                
+            }
+            
+        }
+        
+    }
+
+    .box-message{
+        text-align: center;
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+    }
+}

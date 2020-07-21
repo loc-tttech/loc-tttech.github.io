@@ -1,0 +1,39 @@
+@import './abstracts/variables';
+@import './abstracts/mixins';
+
+@import './base/animations';
+@import './base/base';
+@import './base/typography';
+@import './base/utilities';
+
+@import './components/buttons';
+@import './components/banner';
+@import './components/section';
+@import './components/multi-step';
+
+
+// main.scss
+
+@import './layout/header';
+@import './layout/footer';
+@import './layout/navigation';
+
+
+@import './pages/home';
+@import './pages/guide';
+@import './pages/flow-of-use';
+@import './pages/registration';
+
+// nguyenducloc add
+@import './reset';
+@import './components/tab';
+@import './components/box';
+@import './components/borderBox';
+
+@import './pages/site_06_01.scss';
+@import './pages/site_06_02.scss';
+@import './pages/site_07_01.scss';
+
+.sing__py--3{
+    padding: 3rem 0;
+}

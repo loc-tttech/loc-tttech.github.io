@@ -1,0 +1,86 @@
+.btn-main {
+    background-color: $color-primary;
+    width: 300px;
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid $color-primary;
+    box-shadow: 0 5px 0 #C8580D;
+    font-size: 14px;
+    color: #FFFFFF;
+    &:hover{
+    }
+    &:active{
+    }
+    @media (max-width:576px) {
+        width: 335px;
+    }
+}
+
+.btn-main-dark {
+    background-color: $color-white;
+    width: 300px;
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 5px 0 #CCCCCC;
+    font-size: 14px;
+    color: #2277BB;
+    &:hover{
+    }
+    &:active{
+    }
+    @media (max-width:576px) {
+        width: 335px;
+    }
+}
+// button LINE 
+
+// <button type="button" class="btn-line">
+//             <img class="icon-line" src="./assets/Icon simple-line.png" alt="">
+//             <div class="btn-text">
+//                 <p class="text">
+//                     LINEアカウントでログイン
+//                 </p>
+//             </div>
+//         </button>
+
+.btn-line {
+    background-color: #02B901;
+    display: flex;
+    width: 300px;
+    height: 48px;
+    border-radius: 5px;
+    border: 1.5px solid #02B901;
+    box-shadow: 0 5px 0 #008800;
+    font-size: 14px;
+    color: #FFFFFF;
+    .icon-line{
+        width: 20%;
+        padding: 15px;
+        padding-top: 10px;
+    }
+    .btn-text{
+        width: 80%;
+        background-color: #FFFFFF;
+        height: 48px;
+        text-align: center;
+        position: relative;
+        .text{
+            width: 100%;
+            color: #02B901;
+            font-size: 14px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
+        }
+    }
+    &:hover{
+    }
+    &:active{
+    }
+    @media (max-width:576px) {
+        width: 335px;
+    }
+}
+
